@@ -19,5 +19,3 @@ class Solution:
                     res+=count
                 maxRight = max(maxRight,height[j])
         return res
-
-        #there is a method easier with o(n) time complexity and o(n) space complexity using hashmap. Try to do that.
