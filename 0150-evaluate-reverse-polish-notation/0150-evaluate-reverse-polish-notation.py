@@ -15,7 +15,7 @@ class Solution:
                 stack.append(int(b/a)) #division order matters, also in py by
                 #default its decimal division. So convert it to integer.
             else:
-                stack.append(int(c)) #append all the characters. When encountering a symbol,pop the
+                stack.append(int(c)) #append all the characters as integers. When encountering a symbol,pop the
                 #prev characters in the stack and perform the operation
         return stack[0] #the only remaining value in stack will be the output of the expression.
 
