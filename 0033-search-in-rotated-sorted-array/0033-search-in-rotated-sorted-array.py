@@ -8,7 +8,7 @@ class Solution:
             if target == nums[mid]:
                 return mid
             
-            if nums[left] <= nums[mid]:#we are in left sorted array
+            if nums[left] <= nums[mid]:# means we are in left sorted array
                 if target > nums[mid] or target < nums[left]:
                     left = mid+1
                 else:
@@ -16,7 +16,7 @@ class Solution:
                     #target < nums[left])
 
 
-            else: #we are in right sorted array
+            else: # means we are in right sorted array
                 if target < nums[mid] or target > nums[right]:
                     right = mid-1
                 else:
