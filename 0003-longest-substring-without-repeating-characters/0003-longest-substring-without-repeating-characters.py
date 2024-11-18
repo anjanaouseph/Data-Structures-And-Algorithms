@@ -7,14 +7,12 @@ class Solution:
 
         while r < len(s):
 
-            map[s[r]] = map.get(s[r],0)+1
-
-            while map[s[r]] > 1:#this means character repeating
-            #Before checking if map[s[r]] > 1, you should ensure that s[r] exists in the map. If s[r] is not in the map, it will raise a KeyError. Here since iam adding to map no need to check if it exists
-                map[s[l]] -= 1 #reduce freq by one for the character at 'l' which we are shrinking
-                l += 1 #shrink the window
+            if s[r] in map and map[s[r]]>=l: #within the range
+                l = map[s[r]]+1 #jump l to the position after r to get bigger or same size substring
            
             max_len = max(max_len, r-l+1)
+
+            map[s[r]] = r
 
             r += 1
 
