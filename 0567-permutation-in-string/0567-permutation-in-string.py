@@ -16,21 +16,16 @@ class Solution:
         if map1 == map2:
             return True
 
-        for i in range(n1,n2):
-            map2[ord(s2[i])-97] += 1
-            map2[ord(s2[i-n1])-97] -= 1
+        l = 0
+        r = n1
+        while r<len(s2):
+            map2[ord(s2[r])-ord('a')] += 1
+            map2[ord(s2[l])-ord('a')] -= 1
 
             if map1 == map2:
                 return True
+
+            l += 1
+            r += 1
         
         return False
-
-
-
-        
-
-        
-
-
-
-        
