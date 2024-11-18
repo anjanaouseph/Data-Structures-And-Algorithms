@@ -52,6 +52,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
+| [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 ## Design
@@ -83,6 +84,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 ## Divide and Conquer
@@ -92,5 +94,6 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
