@@ -8,34 +8,19 @@ class Solution:
 
         dummy = ListNode()
 
-        count = 0 #find the length of the LL
+        behind = ahead = dummy #ahead and behind pointers pointing to dummy
 
-        curr = head
+        dummy.next = head
 
-        while curr:
-            count += 1
-            curr = curr.next
+        #move the ahead point to n+1 node from dummy
 
-        #node to be deleted is count-n from the begining
+        for _ in range(n+1):
+            ahead = ahead.next
 
-        curr = head
+        while ahead:
+            behind = behind.next
+            ahead = ahead.next
 
-        if count == 1:
-            return None
-
-        curr = dummy
-        curr.next = head
-        count += 1
-
-        for i in range(0,count-n-1):
-            curr = curr.next
-
-        curr.next =curr.next.next
+        behind.next = behind.next.next
 
         return dummy.next
-
-        
-
-
-        
-        
