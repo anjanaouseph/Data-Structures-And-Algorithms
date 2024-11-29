@@ -11,7 +11,8 @@ class Solution:
 
         slow2 = nums[0]
 
-        while slow != slow2:
+        while slow != slow2:#check if they are equal initally itself
+        #because if start of the cycle itself is at nums[0] then we need to return that as duplicate not the next nums[slow] or nums[slow2]
             slow = nums[slow]   # Move both pointers by 1 step
             slow2 = nums[slow2]
 
