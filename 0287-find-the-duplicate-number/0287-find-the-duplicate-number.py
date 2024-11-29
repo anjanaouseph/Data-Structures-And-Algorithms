@@ -11,9 +11,9 @@ class Solution:
 
         slow2 = 0
 
-        while True:
+        while slow!= slow2:
             slow = nums[slow]
             slow2 = nums[slow2]
-            if slow == slow2:
-                return slow
+
+        return slow
         
