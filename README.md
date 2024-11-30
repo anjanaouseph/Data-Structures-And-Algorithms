@@ -65,6 +65,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 ## Math
@@ -96,6 +97,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
@@ -118,6 +120,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -130,4 +133,8 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
