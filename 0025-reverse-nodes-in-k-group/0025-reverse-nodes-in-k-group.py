@@ -5,36 +5,53 @@
 #         self.next = next
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+
         dummy = ListNode()
-        group_prev = dummy
         dummy.next = head
+        curr = head
+        prev = None
 
-        while True:
-            kth_node = self.getkthNode(group_prev,k)
-            if not kth_node:
-                break
-            groupNext = kth_node.next
-            
-            #lets reverse this
-            prev,curr = kth_node.next, group_prev.next #if prev is None we will break the LL
-            
-            while curr!=groupNext: #curr is not at the end which is groupNext
-                temp = curr.next
-                curr.next = prev
-                prev = curr
-                curr = temp
+        while curr:#while curr not None
+            kth_node = self.getkthNode(curr,k)
+            print("kth node :", kth_node)
 
-            #Now we need to update group_prev node to kth position
-            temp = group_prev.next #it pointed to 1
-            group_prev.next = kth_node #kth was 2
-            group_prev = temp
+            if not kth_node:  # if there are fewer than k nodes left
+                if prev:
+                    prev.next = curr  # connect the last group as is
+                break  # exit the loop as no more full groups can be reversed
 
-        return dummy.next
+            next_node = kth_node.next #save the node after kth node
+            kth_node.next = None
+            new_head = self.reverse_k_nodes(curr)
+
+            #check if this is the first group of reversal
+            if curr == head:
+                head = kth_node
+                print("head", head)
+            else:
+                prev.next = kth_node
+                print("prev.next",prev.next)
+
+            prev = curr
+            print("prev:",prev)
+            curr = next_node
+            print("curr:", curr)
+
+        return head
 
 
     def getkthNode(self,curr,k):#curr advances to 2 other nodes if k=2
-        while curr and k>0:
+        while curr and k>1:
             curr = curr.next
             k -= 1
         return curr #if no k nodes then this will be None
-        
+
+    def reverse_k_nodes(self,curr):
+        prev = None
+
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        return prev
