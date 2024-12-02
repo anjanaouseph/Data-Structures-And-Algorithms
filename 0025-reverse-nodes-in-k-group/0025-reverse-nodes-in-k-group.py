@@ -6,8 +6,6 @@
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
 
-        dummy = ListNode()
-        dummy.next = head
         curr = head
         prev = None
 
@@ -22,7 +20,8 @@ class Solution:
 
             next_node = kth_node.next #save the node after kth node
             kth_node.next = None
-            new_head = self.reverse_k_nodes(curr)
+
+            self.reverse_k_nodes(curr)
 
             #check if this is the first group of reversal
             if curr == head:
@@ -54,4 +53,3 @@ class Solution:
             curr.next = prev
             prev = curr
             curr = temp
-        return prev
