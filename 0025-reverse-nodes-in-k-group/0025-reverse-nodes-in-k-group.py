@@ -28,6 +28,7 @@ class Solution:
             # Check if this is the first group of reversal
             if curr == head:
                 head = kth_node  # Update head to the new head of the reversed group
+                dummy.next = head
                 print("head", head)
             else:
                 prev.next = kth_node  # Link the previous group to the new reversed group
@@ -38,7 +39,7 @@ class Solution:
             curr = next_node  # Move curr to the next node after the kth node
             print("curr:", curr)
 
-        return head  # Return the new head after all groups are reversed
+        return dummy.next  # Return the new head after all groups are reversed
 
     def getkthNode(self, curr, k):  # curr advances to kth node if k=2
         while curr and k > 1:
