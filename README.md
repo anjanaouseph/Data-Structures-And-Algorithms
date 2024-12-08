@@ -149,4 +149,20 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0023-merge-k-sorted-lists) |
+## Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0226-invert-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0226-invert-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
