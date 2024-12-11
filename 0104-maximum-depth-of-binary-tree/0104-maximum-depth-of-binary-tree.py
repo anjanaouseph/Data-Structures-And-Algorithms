@@ -10,19 +10,18 @@ class Solution:
             return 0
         #DFS using stack
 
-        queue = deque([(root,1)])
+        queue = deque([root])
 
         level = 0
 
         while queue:
-           node, depth = queue.popleft()
-           level = max(level, depth)
+            for i in range(len(queue)):
+                node = queue.popleft()
 
-           if node.left:
-            queue.append((node.left, 1+depth))
-
-           if node.right:
-            queue.append((node.right, 1+depth))
-
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            level += 1
 
         return level
