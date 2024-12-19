@@ -7,17 +7,23 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
 
-        def is_val(node,min,max):
-            if not node:#if we reach the end of the tree return Tre
-                return True
+        if not root:
+            return False
 
-            if node.val <= min or node.val >= max:
-                return False
+        min = float('-inf')
+        max = float('inf')
 
-            return is_val(node.left, min, node.val) and is_val(node.right, node.val, max)
-        #when u go left update the maximum and when u go right update the minimum to the previous node's values
+        stack = [[root,min,max]]
 
-        return is_val(root, float('-inf'), float('inf'))
+        while stack:
+            node, min, max = stack.pop()
+            if node:
+                if node.val <= min or node.val >= max:
+                    return False
+                stack.append([node.left, min, node.val])
+                stack.append([node.right, node.val, max])
+
+        return True
 
 
 
