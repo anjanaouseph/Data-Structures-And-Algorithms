@@ -17,22 +17,17 @@ class Solution:
         hashMap = {}
 
         stack = [node]
-        start = node
+        start = node #we need to store this reference because node value gets reassigned in the below while loop
+        hashMap[node] = Node(node.val)
 
         while stack:#create copies of all nodes first
             node = stack.pop()
-    
-            copy = Node(node.val)
-            hashMap[node] = copy
             for nei in node.neighbors:
-                    if nei not in hashMap:
-                        stack.append(nei)
+                if nei not in hashMap:
+                    hashMap[nei] = Node(nei.val)
+                    stack.append(nei)
+                hashMap[node].neighbors.append(hashMap[nei])
             
               
         #map copies to their neighbor's copies, so iterate over hashmap
-
-        for old, new in hashMap.items():
-            for nei in old.neighbors:
-                new.neighbors.append(hashMap[nei])
-
         return hashMap[start]
