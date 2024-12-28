@@ -9,24 +9,30 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        hashMap = {}
 
+        #iterative DFS
         if not node:
             return None
 
-        def dfs(node):
+        hashMap = {}
 
-            if node in hashMap:
-                return hashMap[node]
+        stack = [node]
+        start = node
 
+        while stack:#create copies of all nodes first
+            node = stack.pop()
+    
             copy = Node(node.val)
             hashMap[node] = copy
+            for nei in node.neighbors:
+                    if nei not in hashMap:
+                        stack.append(nei)
+            
+              
+        #map copies to their neighbor's copies, so iterate over hashmap
 
-            for v in node.neighbors:
-                copy.neighbors.append(dfs(v))
-            return copy
+        for old, new in hashMap.items():
+            for nei in old.neighbors:
+                new.neighbors.append(hashMap[nei])
 
-        return dfs(node)
-
-
-        
+        return hashMap[start]
