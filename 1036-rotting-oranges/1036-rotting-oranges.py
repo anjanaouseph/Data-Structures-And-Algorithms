@@ -3,16 +3,8 @@ class Solution:
 
         m,n = len(grid), len(grid[0])
 
-        fresh = True
-
         #check if there are no fresh oranges
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == 1:
-                    fresh = False
-                    break
-
-        if fresh:
+        if not any(1 in row for row in grid):
             return 0
 
         queue = deque()
@@ -30,7 +22,7 @@ class Solution:
             queue.append([r,c])
             visited.add((r,c))
 
-        minutes = 0
+        minutes = 0 #initial given state will be 0th minute
 
         while queue:
             for i in range(len(queue)):
@@ -42,15 +34,8 @@ class Solution:
                 makeRotten(r,c-1)
             minutes += 1
 
-        rotten = False
         #check if there is any fresh orange remaining even after rest all are rotten
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == 1:
-                    rotten = True
-                    break
-
-        if rotten:
+        if any(1 in row for row in grid):
             return -1
-
-        return minutes - 1        
+       
+        return minutes-1 #we need to return the last minute all oranges become rotten, since after the last BFS we iterate again, we need to return minutes-1.    
