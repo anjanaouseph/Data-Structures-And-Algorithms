@@ -15,6 +15,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
@@ -98,6 +99,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 ## Hash Table
 |  |
@@ -207,6 +209,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
