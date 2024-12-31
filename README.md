@@ -21,6 +21,7 @@
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
+| [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 ## Two Pointers
 |  |
 | ------- |
@@ -101,6 +102,7 @@
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -212,6 +214,7 @@
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
