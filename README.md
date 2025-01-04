@@ -54,6 +54,7 @@
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -70,6 +71,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Design
 |  |
 | ------- |
