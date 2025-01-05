@@ -1,6 +1,10 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
 
+        if len(nums) == 0:
+            return 0  
+
+
         hashMap = {}
         min_key = max_key =0
 
@@ -14,5 +18,4 @@ class Solution:
         for key in range(max_key, min_key - 1, -1):#reverse loop
             sum += hashMap.get(key, 0)#if key exists else return 0
             if sum >= k:
-                return key
-        return 0     
+                return key   
