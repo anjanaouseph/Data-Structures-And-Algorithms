@@ -4,27 +4,35 @@ class Solution:
             return 0
 
         curr_no = 0
+        result = 0
+        last_no = 0
+
         operation = '+'
-        stack = []
 
-        s = s.replace(' ','')
+        s = s.replace(" ", "")
 
-        for i, char in enumerate(s):
+        for i,char in enumerate(s):
             if char.isdigit():
-                curr_no = curr_no * 10 + int(char) #appending each digit to form a number. '1','2','3' forms '123'
+                curr_no = curr_no * 10 + int(char)
 
-            if not char.isdigit() or i == len(s) - 1:#not digit and if last character
-                if operation == '+':
-                    stack.append(curr_no)
-                if operation == '-':
-                    stack.append(-curr_no)
+            if not char.isdigit() or i == len(s)-1 :
+                if operation == '+' or operation == '-':
+                    result += last_no
+                    last_no = curr_no if operation == '+' else -curr_no
+
                 if operation == '*':
-                    stack[-1] = stack[-1]*curr_no
-                if operation == '/':
-                    stack[-1] = int(stack[-1] / curr_no) #should round towards 0. // rounds towards -inf and not 0
+                    last_no = last_no * curr_no
+
+                if operation == "/":
+                    last_no = int(last_no / curr_no)
 
                 operation = char
                 curr_no = 0
+        
+        result += last_no
+                
+        return result
 
-        return sum(stack)
+            
+                
                 
