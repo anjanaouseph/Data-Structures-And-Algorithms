@@ -53,6 +53,7 @@
 | [0143-reorder-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
+| [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -68,6 +69,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
+| [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
@@ -85,6 +87,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0002-add-two-numbers) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 ## Sorting
 |  |
 | ------- |
