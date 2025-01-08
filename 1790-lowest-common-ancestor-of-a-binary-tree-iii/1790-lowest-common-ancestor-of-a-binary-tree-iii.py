@@ -15,8 +15,8 @@ class Solution:
         b = q
 
         while a!=b:
-            a = a.parent if a.parent else p
-            b = b.parent if b.parent else q
+            a = a.parent if a.parent else q
+            b = b.parent if b.parent else p
 
         return a
 
