@@ -47,7 +47,7 @@ class Solution:
         if len(nestedList) == 0:
             return 0
 
-        queue = deque([[nested, 1] for nested in nestedList]) #add all in depth of 1.
+        queue = deque([(nested, 1) for nested in nestedList]) #add all in depth of 1.
 
         total = 0
 
@@ -60,6 +60,6 @@ class Solution:
 
             else:
                 for each in nested.getList():
-                    queue.append([each, depth+1])
+                    queue.append((each, depth+1))
 
         return total
