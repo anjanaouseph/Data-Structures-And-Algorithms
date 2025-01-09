@@ -40,21 +40,26 @@
 #        Return None if this NestedInteger holds a single integer
 #        :rtype List[NestedInteger]
 #        """
-
+from collections import deque
 class Solution:
     def depthSum(self, nestedList: List[NestedInteger]) -> int:
 
         if len(nestedList) == 0:
             return 0
 
-        def findDepth(nestedList, depth):
-            total = 0
-            for nested in nestedList:
-                if nested.isInteger():
-                    total += nested.getInteger() * depth
-                else:
-                    total += findDepth(nested.getList(), depth+1) #without .getList() it tries to iterate over the nestedList Object.
+        queue = deque([(nested, 1) for nested in nestedList]) #add all in depth of 1.
 
-            return total
+        total = 0
 
-        return findDepth(nestedList, 1)    
+        #Use queue for BFS, here we explore all elements in a depth before moving to next depth.
+        while queue:
+            nested, depth = queue.popleft()
+
+            if nested.isInteger():
+                total += nested.getInteger() * depth
+
+            else:
+                for each in nested.getList():
+                    queue.append((each, depth+1))
+
+        return total
