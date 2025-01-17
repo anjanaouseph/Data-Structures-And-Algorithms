@@ -5,13 +5,14 @@ class Solution:
         left = 0
         right = len(nums)-1
 
-        while left < right:
+        while left <= right:
             mid = (left + right)//2
 
-            if nums[mid] > nums[mid+1]:#descending slope so peak exists in the left half including mid
-                right = mid
+            if mid>0 and nums[mid] < nums[mid-1]:#checking boundary mid>0 and we check if ascending so check in left half
+                right = mid-1
+            elif mid < len(nums)-1 and nums[mid] < nums[mid+1]:
+                left = mid+1 #descending check righ half
             else:
-                left = mid+1 #ascneding slope maybe so peak exists in right half
-            
-        return left
+                return mid #we found it
+
         
