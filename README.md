@@ -14,6 +14,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
@@ -104,6 +105,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
