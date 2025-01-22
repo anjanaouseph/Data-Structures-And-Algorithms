@@ -4,7 +4,7 @@ class Solution:
         
         stack = []
 
-        path_stack = path.split("/")#splits the string at each / and returns a list of substrings.  #O(n)
+        path_stack = path.split("/")#splits the string at each / and returns a list of substrings.  #time and space complexity O(n)
 
         for item in path_stack:#o(n)
             if item == "." or item == "":
@@ -15,7 +15,7 @@ class Solution:
             else:
                 stack.append(item)
 
-        return "/"+"/".join(stack)#o(n)
+        return "/"+"/".join(stack)#time and space complexity is o(n)
 
         
 
