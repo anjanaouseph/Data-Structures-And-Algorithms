@@ -52,6 +52,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -72,6 +73,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0071-simplify-path) |
 | [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
