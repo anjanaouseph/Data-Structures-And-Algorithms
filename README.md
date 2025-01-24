@@ -20,6 +20,7 @@
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0417-pacific-atlantic-water-flow](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
+| [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
@@ -138,6 +139,7 @@
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -308,6 +310,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 ## Randomized
 |  |
