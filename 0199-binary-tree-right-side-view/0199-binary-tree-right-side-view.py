@@ -6,29 +6,22 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        #BFS using queue
-
         if not root:
             return []
 
+        queue = deque([root])
         res = []
 
-        queue = deque([root])
-
         while queue:
-            length = len(queue)
-            for i in range(length):
+            size = len(queue)
+            for i in range(size):
                 node = queue.popleft()
-                if i == length-1 and node:
+                if i == size-1 and node:
                     res.append(node.val)
-                
-                if node.left:
+                if node.left:#dont add None noded as they change the size of the queue and the end node may be None and not what we are expecting!
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
+
         return res
-
-
-
-
         
