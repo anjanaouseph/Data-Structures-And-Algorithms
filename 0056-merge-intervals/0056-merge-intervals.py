@@ -5,15 +5,10 @@ class Solution:
 
         merged = []
 
-        for i in range(len(intervals)):
-                if merged and intervals[i][0] >= merged[len(merged)-1][0] and intervals[i][0] <= merged[len(merged)-1][1]:
-                   x,y= merged.pop()
-                   merged.append([x, max(y, intervals[i][1])])
-                   i += 1
-                else:
-                    merged.append(intervals[i])
-            
+        for interval in intervals:
+            if not merged or interval[0] > merged[-1][1]:#the first element is greater than the last element of the merged interval's range then no overlap
+                merged.append(interval)
+            else:
+                 merged[-1] = [merged[-1][0],max(merged[-1][1], interval[1])]
 
         return merged
-
-        
