@@ -1,21 +1,17 @@
 class Solution:
     def findBuildings(self, heights: List[int]) -> List[int]:
-        if not heights:
-            return []
+        #solution without stack
 
-        stack = []
-
-        for i,height in enumerate(heights):
-            while stack and height>=stack[-1][0]:
-                    stack.pop()
-            stack.append([height, i])
+        max_height = 0
 
         res = []
 
-        while stack:
-            val, index = stack.pop()
-            res.append(index)
+        for i in range(len(heights)-1,-1,-1):
+            if heights[i] > max_height:
+                max_height = heights[i]
+                res.append(i)
 
-        res.reverse() #The reason res.reverse() returns None is because the reverse() method in Python is designed to modify the list in place and not return a new list. This design follows the principle of command-query separation (CQS), which states that a method should either:Perform an action (like modifying an object) but not return a value.Return a value but not modify the object.
+        res.reverse()
+
         return res
         
