@@ -31,6 +31,7 @@
 | [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 ## Two Pointers
 |  |
 | ------- |
@@ -67,6 +68,7 @@
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -74,6 +76,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
+| [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 ## String
 |  |
 | ------- |
