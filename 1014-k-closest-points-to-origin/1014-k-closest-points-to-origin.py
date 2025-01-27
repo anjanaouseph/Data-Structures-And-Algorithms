@@ -7,18 +7,13 @@ class Solution:
 
         heap = []
 
-        for point in points:
-            distance = math.sqrt((point[0]-0)**2+(point[1]-0)**2)
-            heapq.heappush(heap, (-distance, [point[0],point[1]]))
+        for x,y in points:
+            distance = math.sqrt((x-0)**2+(y-0)**2)
+            heapq.heappush(heap, (-distance,x,y))
             if len(heap)>k:#we need a maxheap to pop out the largest elements
                 heapq.heappop(heap) #nlogk
 
-        res = []
-
-        for element in heap: 
-            res.append(element[1])
-
-        return res
+        return [[x,y] for d,x,y in heap]
 
 
         
