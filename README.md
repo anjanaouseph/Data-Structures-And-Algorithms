@@ -29,6 +29,7 @@
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
+| [1028-interval-list-intersections](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -43,6 +44,7 @@
 | [0143-reorder-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
+| [1028-interval-list-intersections](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Greedy
@@ -345,4 +347,8 @@
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
