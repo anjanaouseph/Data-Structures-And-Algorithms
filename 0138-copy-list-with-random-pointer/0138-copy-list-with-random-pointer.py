@@ -16,17 +16,22 @@ class Solution:
 
         curr = head
 
+        #map the current nodes to their newly created equivalents
         while curr:
-            node = Node(x=curr.val)
+            node = Node(curr.val)
             map[curr] = node
             curr = curr.next
 
         curr = head
 
         while curr:
-            node = map[curr]
-            node.next = map[curr.next] if curr.next else None
-            node.random = map[curr.random] if curr.random else None
+            map[curr].next = map[curr.next] if curr.next else None
+            map[curr].random = map[curr.random] if curr.random else None
             curr = curr.next
 
-        return map[head]  
+        return map[head]
+
+        
+
+
+        
