@@ -9,6 +9,9 @@ class Solution:
         if not root:
             return []
 
+        min_col = 0
+        max_col = 0
+
         res = []
 
         hashMap = collections.defaultdict(list)
@@ -19,6 +22,8 @@ class Solution:
             length = len(queue)
             for i in range(length):
                 node, column = queue.popleft()
+                min_col = min(min_col, column)
+                max_col = max(max_col, column)
                 if node:
                     hashMap[column].append(node.val)
                 if node.left:
@@ -26,8 +31,9 @@ class Solution:
                 if node.right:
                     queue.append([node.right, column+1])
 
-        for key in sorted(hashMap.keys()):
-            res.append(hashMap[key])
+        for i in range(min_col,max_col+1):
+            if hashMap[i]:
+                res.append(hashMap[i])
 
         return res
 
