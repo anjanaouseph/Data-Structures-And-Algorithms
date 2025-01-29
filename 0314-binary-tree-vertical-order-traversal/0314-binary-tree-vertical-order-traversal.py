@@ -9,24 +9,26 @@ class Solution:
         if not root:
             return []
 
-        #create a hashmap to store keys as columns and values are list of nodes at a column
-        hashMap = defaultdict(list)
-        min_col = max_col = 0
+        res = []
 
-        queue = deque([(root, 0)])#add root and its current column which is 0
+        hashMap = collections.defaultdict(list)
+
+        queue = deque([[root,1]])
 
         while queue:
             length = len(queue)
             for i in range(length):
                 node, column = queue.popleft()
-
                 if node:
-                    #to find the min and max column values possible
                     hashMap[column].append(node.val)
-                    queue.append((node.left, column-1))
-                    queue.append((node.right, column+1))
+                if node.left:
+                    queue.append([node.left, column-1])
+                if node.right:
+                    queue.append([node.right, column+1])
 
-                    min_col = min(min_col, column)
-                    max_col = max(max_col, column)
+        for key in sorted(hashMap.keys()):
+            res.append(hashMap[key])
 
-        return [hashMap[column] for column in range(min_col, max_col+1)]
+        return res
+
+        
