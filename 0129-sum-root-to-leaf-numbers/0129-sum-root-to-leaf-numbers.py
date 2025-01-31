@@ -12,16 +12,17 @@ class Solution:
             return 0
 
         def dfs(root, sum):
+
+            if not root:
+                return
             
             sum = sum*10 + root.val
 
             if not root.left and not root.right: #if leaf node, add to result
                 result[0] += sum
                 return
-            if root.left:
-                dfs(root.left, sum)
-            if root.right:
-                dfs(root.right, sum)             
+            dfs(root.left, sum)
+            dfs(root.right, sum)             
 
         dfs(root, 0)
         return result[0]
