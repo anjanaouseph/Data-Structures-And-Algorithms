@@ -242,6 +242,7 @@
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -266,6 +267,7 @@
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -307,6 +309,7 @@
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## String Matching
 |  |
 | ------- |
