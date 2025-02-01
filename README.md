@@ -10,6 +10,7 @@
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -200,6 +201,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 ## Doubly-Linked List
 |  |
@@ -357,4 +359,8 @@
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1028-interval-list-intersections) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
