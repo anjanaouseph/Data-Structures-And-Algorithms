@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def maximumAverageSubtree(self, root: Optional[TreeNode]) -> float:
-        max_val = [0]
+        self.max_val = 0
 
         def dfs(root, pos):
             if not root:
@@ -19,9 +19,9 @@ class Solution:
             count = leftpos+rightpos+1
 
             average = sum/count #use float
-            max_val[0] = max(average, max_val[0])
+            self.max_val = max(average, self.max_val)
 
             return (sum, count)
             
         dfs(root,0)
-        return max_val[0]
+        return self.max_val
