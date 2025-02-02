@@ -243,6 +243,7 @@
 | [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2126-count-nodes-equal-to-sum-of-descendants](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2126-count-nodes-equal-to-sum-of-descendants) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
@@ -269,6 +270,7 @@
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2126-count-nodes-equal-to-sum-of-descendants](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2126-count-nodes-equal-to-sum-of-descendants) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
@@ -312,6 +314,7 @@
 | [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2126-count-nodes-equal-to-sum-of-descendants](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2126-count-nodes-equal-to-sum-of-descendants) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## String Matching
 |  |
