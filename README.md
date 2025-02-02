@@ -240,6 +240,7 @@
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
+| [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
@@ -266,6 +267,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
+| [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
@@ -307,6 +309,7 @@
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
+| [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
