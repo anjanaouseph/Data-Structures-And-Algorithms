@@ -1,56 +1,60 @@
-from collections import deque
-
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        m = len(heights)
+        n = len(heights[0])
 
-        m,n = len(heights), len(heights[0])
+        visited_a = set()
+        visited_p = set()
 
-        #for pacific ocean
-        p_que = deque()
-        p_seen = set()
+        #we need to do a BFS
 
-        #for atlantic ocean
-        a_que = deque()
-        a_seen = set()
+        queue_a = deque()
+        queue_p = deque()
 
-        #add the first row to pacific ocean set
-        for i in range(n):
-            p_que.append([0,i])
-            p_seen.add((0,i))
+        #add first col to pacific ocean
+        for i in range(m):
+            queue_p.append((i,0))
+            visited_p.add((i,0))
 
-        #add the first column except the first cell because we added it before
-        for i in range(1,m):
-            p_que.append([i,0])
-            p_seen.add((i,0))
+        #first row add
+        for j in range(1,n):
+            queue_p.append((0,j))
+            visited_p.add((0,j))
 
-        #add the last row to atlantic ocean set
-        for i in range(n):
-            a_que.append([m-1,i])
-            a_seen.add((m-1,i))
+         #add last col to atlantic ocean
+        for i in range(m):
+            queue_a.append((i,n-1))
+            visited_a.add((i,n-1))
 
-        #add the last column except the last cell because we added it in before step
-        for i in range(0,m-1):
-            a_que.append([i,n-1])
-            a_seen.add((i,n-1))
+        #last row add
+        for j in range(0,n-1):
+            queue_a.append((m-1,j))
+            visited_a.add((m-1,j))
 
-        def get_coords(que, seen):
-            while que:
-                i,j = que.popleft()
-                for i_off, j_off in [(0,1),(1,0),(0,-1),(-1,0)]:
-                    r,c = i+i_off, j+j_off
-                    if 0 <= r < m and 0 <= c < n and heights[r][c] >= heights[i][j] and (r,c) not in seen:
-                        que.append([r,c])
-                        seen.add((r,c))
-            return seen
+        directions = [(-1, 0), (1,0), (0,-1), (0, 1)]
 
-        p_coords = get_coords(p_que,p_seen)
-        a_coords = get_coords(a_que,a_seen)
+        def bfs(queue, visited):
+            while queue:
+                i, j = queue.popleft()
+                for dx, dy in directions:
+                    rx,ry = dx+i, dy+j
+                    if 0<=rx<m and 0<=ry<n and (rx,ry) not in visited and heights[i][j]<= heights[rx][ry]:
+                        queue.append((rx,ry))
+                        visited.add((rx,ry))
+
+        bfs(queue_a,visited_a)
+        bfs(queue_p,visited_p)
+
+        return list(visited_a.intersection(visited_p))
+
+                 
+        
 
 
-        return list(p_coords.intersection(a_coords))
+        
 
 
-
+        
 
 
         
