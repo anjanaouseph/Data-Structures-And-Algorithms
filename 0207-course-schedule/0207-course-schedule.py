@@ -6,7 +6,7 @@ class Solution:
         adjList = defaultdict(list)
 
         for a,b in prerequisites:#make adj matrix
-            adjList[a].append(b)
+            adjList[b].append(a)
 
         unvisited = 0
         visited= 2
