@@ -271,6 +271,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0339-nested-list-weight-sum) |
@@ -295,6 +296,7 @@
 | [0207-course-schedule](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0226-invert-binary-tree) |
+| [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -348,6 +350,7 @@
 | ------- |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
+| [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 ## Graph
 |  |
@@ -355,6 +358,7 @@
 | [0133-clone-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0210-course-schedule-ii) |
+| [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
 ## Quickselect
 |  |
 | ------- |
