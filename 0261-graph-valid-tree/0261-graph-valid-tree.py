@@ -2,6 +2,8 @@ class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
 
         #empty graph is considered a tree.
+        if not n:
+            return True
 
         #we make adj list but its bidirectional
         adj = defaultdict(list)
