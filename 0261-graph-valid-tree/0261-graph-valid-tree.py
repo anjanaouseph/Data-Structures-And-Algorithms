@@ -1,7 +1,7 @@
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
 
-        #empty graph is considered a tree.
+        #empty graph is considered a tree. Base Case no graph to traverse, so empty graph is a tree. Return True
         if not n:
             return True
 
