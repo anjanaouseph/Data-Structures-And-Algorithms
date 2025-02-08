@@ -17,7 +17,7 @@ class Solution:
 
         connected = 0
 
-        def dfs(node, prev):
+        def dfs(node):
             state = states[node]
             if state == visited: return
 
@@ -26,14 +26,11 @@ class Solution:
             visit_set.add(node)
 
             for nei in adj[node]:
-                if nei == prev:
-                    continue
-                else:
-                    dfs(nei,node)
+                    dfs(nei)
 
         for i in range(n):
             if i not in visit_set:
-                dfs(i, -1)
+                dfs(i)
                 connected += 1
     
         return connected
