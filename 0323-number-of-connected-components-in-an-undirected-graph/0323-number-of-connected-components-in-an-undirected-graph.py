@@ -9,7 +9,7 @@ class Solution:
             adj[a].append(b)
             adj[b].append(a)
 
-        unvisited, visiting, visited = 0,1,2
+        unvisited, visited = 0, 2
 
         states = [unvisited]*n
 
