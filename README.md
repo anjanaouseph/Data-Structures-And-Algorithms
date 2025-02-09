@@ -279,6 +279,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
+| [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -304,6 +305,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0339-nested-list-weight-sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0339-nested-list-weight-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -354,6 +356,7 @@
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 ## Graph
 |  |
@@ -363,6 +366,7 @@
 | [0210-course-schedule-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0684-redundant-connection) |
 ## Quickselect
 |  |
 | ------- |
