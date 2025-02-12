@@ -33,6 +33,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1028-interval-list-intersections](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
@@ -143,6 +144,7 @@
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
+| [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Matrix
 |  |
 | ------- |
@@ -187,6 +189,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
+| [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Linked List
 |  |
 | ------- |
@@ -381,6 +384,7 @@
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
+| [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Randomized
 |  |
 | ------- |
