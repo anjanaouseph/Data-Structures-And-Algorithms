@@ -96,6 +96,7 @@
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
@@ -158,6 +159,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
@@ -291,6 +293,7 @@
 | [0100-same-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
