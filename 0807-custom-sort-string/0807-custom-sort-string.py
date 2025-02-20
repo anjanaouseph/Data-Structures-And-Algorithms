@@ -1,14 +1,14 @@
 class Solution:
     def customSortString(self, order: str, s: str) -> str:
-        hashMap = {}
+        hashMap = defaultdict(int)
 
         for char in s:
-            hashMap[char] = hashMap.get(char, 0)+1
+            hashMap[char] += 1
 
         string_builder = []
 
         for char in order:
-            if hashMap.get(char, 0):
+            if hashMap[char]:
                 string_builder.append(char * hashMap[char])
                 del hashMap[char] #to remove a key from hashMap if using collections
 
