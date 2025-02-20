@@ -103,6 +103,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0680-valid-palindrome-ii) |
+| [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -130,6 +131,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Binary Search
@@ -171,6 +173,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
+| [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
