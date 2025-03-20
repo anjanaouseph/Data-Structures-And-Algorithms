@@ -113,6 +113,7 @@
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Math
@@ -230,6 +231,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
@@ -255,6 +257,7 @@
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -339,6 +342,7 @@
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1091-maximum-average-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1091-maximum-average-subtree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -358,6 +362,7 @@
 | [0098-validate-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Union Find
 |  |
 | ------- |
@@ -418,4 +423,8 @@
 | ------- |
 | [0207-course-schedule](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0210-course-schedule-ii) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
