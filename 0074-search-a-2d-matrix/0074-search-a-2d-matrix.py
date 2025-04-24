@@ -1,33 +1,43 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        row,col = len(matrix), len(matrix[0])
 
-        ROW, COL = len(matrix),len(matrix[0])
-        top, bot = 0, ROW-1
+        top, bot =0, row-1
 
+        #do binary search to narrow down the row
         while top <= bot:
-            row = (top+bot)//2 #to truncate the decimal and get only integer part
-            if target > matrix[row][-1]:
-                top = row + 1
-            elif target < matrix[row][0]:
-                bot = row - 1
+            mid1 = (top+bot)//2
+
+            if target > matrix[mid1][-1]:
+                top = mid1+1
+
+            elif target < matrix[mid1][0]:
+                bot = mid1-1
             else:
                 break
 
-        if not top<=bot: #this means the element is absent in the matrix
-            return False
+        if top > bot:
+            return False #element doesn't exist
 
-        l, r = 0, COL-1
- 
-       # row = (top+bot)//2  #to ensure you're performing the second binary search (within the row) using the final, most accurate top and bot values.
+        #we have identified the row above which will be top = bot
+        #do binary search again on the row we identified
 
-        while l<=r:
-            mid = (l+r)//2
-            if target > matrix[row][mid]:
-                l = mid+1
-            elif target < matrix[row][mid]:
-                r = mid-1
+        left,right = 0,col-1
+
+        while left <= right:
+            mid = (left+right)//2
+
+            if target > matrix[mid1][mid]:
+                left = mid+1
+            elif target < matrix[mid1][mid]:
+                right = mid-1
             else:
-                return True #we found the row and column containing the target
-        
+                return True
+
         return False
+
+
+        
+
+        
         
