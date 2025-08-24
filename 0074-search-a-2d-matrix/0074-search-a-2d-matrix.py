@@ -3,38 +3,37 @@ class Solution:
         rows = len(matrix) #rows
         cols = len(matrix[0]) #cols
 
-        left = 0
-        right = rows-1
+        top = 0
+        bot = rows-1
 
         #do binary search on the rows first
+        while top<=bot:
+            mid = top + (bot - top)//2
 
-        while left <= right:#while loop exits when left > right
-            mid = left + (right-left)//2
+            if target > matrix[mid][-1]:
+                top = mid+1
+            elif target < matrix[mid][0]:
+                bot = mid-1
+            else: #means we identified the row
+                break
 
-            if matrix[mid][0] == target:
-                return True
-
-            elif matrix[mid][0] > target:
-                right = mid-1
-
-            else:
-                left = mid+1
+        if top>bot:
+            return False #element doesn't exist
 
         #do binary search on the cols
         #don't return early with return False
-        row_new = right
-
         left = 0
         right = cols-1
 
-        while left <= right:            
-            mid = left + (right - left)//2
+        row = mid
+        while left<=right:
+            mid = left + (right-left)//2
 
-            if matrix[row_new][mid] == target:
+            if target == matrix[row][mid]:
                 return True
-            elif matrix[row_new][mid] > target:
-                right = mid-1
-            else:
+            elif target > matrix[row][mid]:
                 left = mid+1
-
+            else:
+                right = mid-1
+        
         return False
