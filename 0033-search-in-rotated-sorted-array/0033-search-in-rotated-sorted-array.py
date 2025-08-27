@@ -20,10 +20,10 @@ class Solution:
         #for already ascending non rotatd array
         if nums[0] == nums[min_element]:
             left, right = 0, len(nums)-1
-        elif target >= nums[min_element] and target < nums[0]:
-            left, right = min_element, len(nums)-1
+        elif target >= nums[0] and target <= nums[min_element-1]:
+            left , right = 0, min_element-1
         else:
-            left, right = 0, min_element-1
+            left, right = min_element, len(nums)-1
 
 
         #do traditional BS
