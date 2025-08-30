@@ -1,26 +1,34 @@
 class TimeMap:
 
     def __init__(self):
-        self.map = {}
+        #initialize a hashap
+        self.store = {} #key : value, timesatmp, can use default dict as well
         
-
     def set(self, key: str, value: str, timestamp: int) -> None:
-        if key not in self.map:
-           self.map[key] = []
-        self.map[key].append([value,timestamp])  
+        if key not in self.store:
+            self.store[key] = [] #empty hashmap, if using defaultdict no need of this
+
+        self.store[key].append([value, timestamp])        
 
     def get(self, key: str, timestamp: int) -> str:
+
         res = ""
-        values = self.map.get(key,[])#if doesnt exist initialize with []
-        l , r = 0, len(values)-1
-        while l<=r:
-            mid = (l+r)//2
-            if values[mid][1] <= timestamp: #this way we get the closest value
-                res = values[mid][0]
-                l = mid+1
+
+        values = self.store.get(key, []) #if no key return []
+        left = 0
+        right = len(values)-1
+
+        while left <= right:
+            mid = (left+right)//2
+            if values[mid][1] <= timestamp:
+                res = values[mid][0] #this will be the closest value
+                left = mid+1
             else:
-                r = mid-1 #ignore values greater than timestamp, we only need values closest to or equal to the timestamp.
-        return res     
+                right = mid-1
+
+        return res
+
+        
 
 
 # Your TimeMap object will be instantiated and called as such:
