@@ -1,20 +1,19 @@
+from collections import defaultdict
+
 class TimeMap:
 
     def __init__(self):
-        #initialize a hashap
-        self.store = {} #key : value, timesatmp, can use default dict as well
+        #using defaultdict
+        self.store = defaultdict(list) #key : value, timesatmp, can use default dict as well
         
     def set(self, key: str, value: str, timestamp: int) -> None:
-        if key not in self.store:
-            self.store[key] = [] #empty hashmap, if using defaultdict no need of this
-
         self.store[key].append([value, timestamp])        
 
     def get(self, key: str, timestamp: int) -> str:
 
         res = ""
 
-        values = self.store.get(key, []) #if no key return []
+        values = self.store[key] #if no key returns []
         left = 0
         right = len(values)-1
 
