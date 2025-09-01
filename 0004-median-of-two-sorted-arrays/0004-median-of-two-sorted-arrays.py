@@ -1,34 +1,35 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
 
-        A, B = nums1, nums2
+        if len(nums1)> len(nums2):
+            return self.findMedianSortedArrays(nums2, nums1) #smallest array should be nums1
 
-        if len(A) > len(B):           # ensure A is the smaller array
-            A, B = B, A
-
-        total = len(A)+len(B)
-
-        half = total//2
+        n1 = len(nums1)
+        n2 = len(nums2)
 
         left = 0
-        right = len(A)-1
+        right = n1
 
-        while True:
-            mid = (left+right)//2
-            mid2 = half - mid - 2
+        total = n1+n2
+        half = (total+1)//2
 
-            Aleft = A[mid] if mid >= 0 else float("-infinity")
-            Aright = A[mid+1] if mid+1 < len(A) else float("infinity")
+        while left<=right:
+            mid1 = (left+right)//2 #no of elements to take from mid1
+            mid2 = half-mid1  #no of elements to take from mid2
+            
+            l1 = nums1[mid1 - 1] if mid1 > 0 else float('-inf')
+            r1 = nums1[mid1]     if mid1 < n1 else float('inf')
+            l2 = nums2[mid2 - 1] if mid2 > 0 else float('-inf')
+            r2 = nums2[mid2]     if mid2 < n2 else float('inf')
 
-            Bleft = B[mid2] if mid2 >= 0 else float("-infinity")
-            Bright = B[mid2+1] if mid2+1 < len(B) else float("infinity")
+            #check symmetry
+            if l1<=r2 and l2<=r1:
+                if total%2 == 0:
+                    return (max(l1,l2)+min(r1,r2))/2.0
+                else:
+                    return max(l1,l2)
 
-            if Aleft <= Bright and Bleft <= Aright:
-                if total%2 == 0:#check if even no
-                    return (max(Aleft, Bleft)+min(Aright, Bright))/2
-                else:#if no of elements are odd
-                    return min(Aright, Bright)
-            elif Aleft>Bright:
-                right = mid-1
+            elif l1>r2:
+                right = mid1-1
             else:
-                left = mid+1     
+                left = mid1+1
