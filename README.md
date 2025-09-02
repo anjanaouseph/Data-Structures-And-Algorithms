@@ -20,6 +20,7 @@
 | [0162-find-peak-element](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
@@ -131,6 +132,7 @@
 | ------- |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
@@ -171,6 +173,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
+| [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
