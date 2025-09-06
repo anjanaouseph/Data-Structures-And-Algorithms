@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
@@ -98,6 +99,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
@@ -132,6 +134,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
@@ -171,6 +174,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0133-clone-graph) |
