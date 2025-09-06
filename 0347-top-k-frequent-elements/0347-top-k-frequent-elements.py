@@ -1,35 +1,23 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        if len(nums) == 0:
-            return []
+        if len(nums) == 1:
+            return [1]
 
-        map = collections.defaultdict(int)
+        hashMap = {}
 
         for num in nums:
-            map[num] = map.setdefault(num,0)+1
+            if num not in hashMap:
+                hashMap[num] = 0
 
-        #Frequencies are non negative
-        freqs = [[] for _ in range(len(nums) + 1)]
+            hashMap[num] += 1
 
-        for key,val in map.items():
-            freqs[val].append(key)
+        sorted_items = sorted(hashMap.items(), key=lambda x: x[1], reverse=True)#this is tuples
 
-        result = []
+        count = k
 
-        i = k
-        
-        for i in range(len(freqs)-1,-1,-1):
-                for freq in freqs[i]:
-                    result.append(freq)
-                    if len(result)==k:
-                        return result
+        res = []
 
-        return result
+        for i in range(count):
+            res.append(sorted_items[i][0])
 
-
-
-
-
-
-
-        
+        return res
