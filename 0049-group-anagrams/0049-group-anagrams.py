@@ -6,8 +6,6 @@ class Solution:
 
         hashMap = collections.defaultdict(list)
 
-        count = [0]*26
-
         for str in strs:
             count = [0]*26
             for char in str:
