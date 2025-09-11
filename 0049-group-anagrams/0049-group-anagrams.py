@@ -1,12 +1,23 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 
-        map = {}
-        
+        if len(strs) == 0:
+            return [[""]]
+
+        hashMap = collections.defaultdict(list)
+
+        count = [0]*26
+
         for str in strs:
             count = [0]*26
             for char in str:
                 count[ord(char)-ord('a')] += 1
-            map.setdefault(tuple(count),[]).append(str)
+            
+            hashMap[tuple(count)].append(str)
 
-        return map.values()    
+        res = []
+
+        for value in hashMap.values():
+            res.append(value)
+
+        return res        
