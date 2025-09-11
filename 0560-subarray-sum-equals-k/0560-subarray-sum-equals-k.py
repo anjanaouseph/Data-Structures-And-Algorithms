@@ -1,17 +1,19 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
 
-        hashMap = collections.defaultdict(int)
-        hashMap[0] = 1
-        count = 0
-        current_sum = 0
+       hashMap = collections.defaultdict(int)
+       hashMap[0] = 1 
 
-        for num in nums:
-            current_sum += num
+       running_sum = 0
+       res = 0
 
-            if current_sum-k in hashMap:
-                count += hashMap[current_sum-k]
+       for num in nums:
+            running_sum += num
 
-            hashMap[current_sum] += 1
+            if hashMap[running_sum - k]:
+                res += hashMap[running_sum-k]
+                #running_sum-k can be zero when [1 2] and k = 3 to handle that we need to
+                #set hashMap[0] = 1 
 
-        return count         
+            hashMap[running_sum] += 1
+       return res
