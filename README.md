@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
@@ -431,6 +432,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
 ## Topological Sort
 |  |
