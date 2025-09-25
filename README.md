@@ -24,6 +24,7 @@
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
+| [0271-encode-and-decode-strings](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
@@ -107,6 +108,7 @@
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
+| [0271-encode-and-decode-strings](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
@@ -121,6 +123,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
+| [0271-encode-and-decode-strings](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
