@@ -1,19 +1,19 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
 
+        #Solution with O(N) time and O(1) space complexity
+        n = len(nums)
+        res = [1]*n
+
         pdt_left = 1
         pdt_right = 1
-        n = len(nums)
-        prefix = [1]*n
-        suffix = [1]*n
 
         for i in range(n):
-            j = -i-1 #to store values from reverse
-
-            prefix[i] = pdt_left
-            suffix[j] = pdt_right
-
+            res[i] = pdt_left
             pdt_left *= nums[i]
-            pdt_right *= nums[j]
 
-        return [ p*s  for p,s in zip(prefix, suffix)]
+        for i in range(n-1, -1, -1):
+            res[i] *= pdt_right
+            pdt_right *= nums[i]
+
+        return res       
