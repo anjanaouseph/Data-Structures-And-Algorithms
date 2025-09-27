@@ -1,20 +1,25 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
 
-        array_set = set(nums)
+        if not nums:
+            return 0
 
+        sett = set(nums)
+
+# For SETs: Time: O(n) average
+# Space: O(n) worst case (O(u) where u = number of unique elements)
         longest = 0
 
-        for num in array_set:
-            if num-1 in array_set:
+        for nums in sett:
+            if nums-1 in sett:
                 continue
 
             count = 1
 
-            while num+1 in array_set:
+            while nums+1 in sett:
                 count += 1
-                num = num+1
-            
+                nums = nums+1
+
             longest = max(longest, count)
 
-        return longest
+        return longest     
