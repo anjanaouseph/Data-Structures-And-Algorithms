@@ -5,15 +5,15 @@ class Solution:
 
         longest = 0
 
-        for var in array_set:
-            if var-1 in array_set:
+        for num in array_set:
+            if num-1 in array_set:
                 continue
 
             count = 1
 
-            while var+1 in array_set:
+            while num+1 in array_set:
                 count += 1
-                var = var+1
+                num = num+1
             
             longest = max(longest, count)
 
