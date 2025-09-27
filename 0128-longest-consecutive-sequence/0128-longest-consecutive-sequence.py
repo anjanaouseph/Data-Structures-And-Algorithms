@@ -1,18 +1,20 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
 
-        #brute force solution
-        if len(nums) == 0:
-            return 0
+        array_set = set(nums)
 
-        arr_sorted = sorted(set(nums)) #O(nlogn)
-        max_count = count = 1
+        longest = 0
 
-        for i in range(len(arr_sorted)-1):
-            if arr_sorted[i+1] == arr_sorted[i]+1:
+        for var in array_set:
+            if var-1 in array_set:
+                continue
+
+            count = 1
+
+            while var+1 in array_set:
                 count += 1
-                max_count = max(max_count,count)
-            else:
-                count = 1
+                var = var+1
+            
+            longest = max(longest, count)
 
-        return max_count
+        return longest
