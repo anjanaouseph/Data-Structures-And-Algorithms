@@ -18,6 +18,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -187,6 +188,7 @@
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
@@ -391,6 +393,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0261-graph-valid-tree) |
