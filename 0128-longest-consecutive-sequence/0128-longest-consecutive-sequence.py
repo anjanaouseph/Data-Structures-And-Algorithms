@@ -5,16 +5,13 @@ class Solution:
         if len(nums) == 0:
             return 0
 
-        arr_sorted = sorted(nums) #O(nlogn)
-        count = 1
-        max_count = 1
+        arr_sorted = sorted(set(nums)) #O(nlogn)
+        max_count = count = 1
 
         for i in range(len(arr_sorted)-1):
             if arr_sorted[i+1] == arr_sorted[i]+1:
                 count += 1
                 max_count = max(max_count,count)
-            elif arr_sorted[i+1] == arr_sorted[i]:
-                continue
             else:
                 count = 1
 
