@@ -3,24 +3,23 @@ class Solution:
 
         if not s:
             return False
-        #convert to lower case
-        s_lower = s.lower() #o(n) time and space
 
-        #remove all non-alpha numeric characters
-        res = [] #space is O(n)
+        i = 0
+        j = len(s)-1
 
-        for s in s_lower: #O(n)
-            if s.isalnum():
-                res.append(s)
-
-        left = 0
-        right = len(res)-1
-
-        while left < right: #O(n) time
-            if res[left] != res[right]:
-                return False
+        while i<j:
+            if not s[i].isalnum():
+                i += 1
+                continue
             
-            left += 1
-            right -=1
+            if not s[j].isalnum():
+                j -= 1
+                continue
 
-        return True    
+            if s[i].lower() != s[j].lower():
+                return False
+
+            i += 1
+            j -= 1
+
+        return True
