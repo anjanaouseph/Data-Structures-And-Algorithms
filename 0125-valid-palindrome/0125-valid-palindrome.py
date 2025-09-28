@@ -2,21 +2,16 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
 
         if not s:
-            return False
+            return True
+
+        s_proper = re.sub(r'[^A-Za-z0-9]',"",s)
 
         i = 0
-        j = len(s)-1
+        j = len(s_proper)-1
+
 
         while i<j:
-            if not s[i].isalnum():
-                i += 1
-                continue
-            
-            if not s[j].isalnum():
-                j -= 1
-                continue
-
-            if s[i].lower() != s[j].lower():
+            if s_proper[i].lower() != s_proper[j].lower():
                 return False
 
             i += 1
