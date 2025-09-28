@@ -1,18 +1,28 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
+
         if not s:
             return False
+        #convert to lower case
+        s_lower = s.lower()
 
-        s = s.lower()
-        s = re.sub(r'[^a-zA-Z0-9]', '', s)
+        #remove all non-alpha numeric characters
+        res = []
+
+        for s in s_lower:
+            if s.isalnum():
+                res.append(s)
+
+        "".join(res)
 
         left = 0
-        right = len(s)-1
+        right = len(res)-1
 
         while left < right:
-            if s[left] != s[right]:
+            if res[left] != res[right]:
                 return False
+            
             left += 1
-            right -= 1
+            right -=1
 
-        return True
+        return True    
