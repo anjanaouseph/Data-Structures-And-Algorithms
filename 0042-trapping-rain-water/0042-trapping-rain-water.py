@@ -1,21 +1,27 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        i,j = 0, len(height)-1
-        maxLeft = height[i]
-        maxRight = height[j]
-        res = 0
-        while i<j:
-            if maxLeft < maxRight:#move along the direction of lower pointer to maximize
-            #the minimum boundary
-                i+=1 #move to next pointer
-                count = min(maxLeft,maxRight)-height[i] #use the formula to find units of water
-                if count>0: #if positive >0 then add to the total units counter
-                    res+=count
-                maxLeft = max(maxLeft,height[i])
-            else:
-                j-=1
-                count = min(maxLeft,maxRight)-height[j]
-                if count>0:
-                    res+=count
-                maxRight = max(maxRight,height[j])
-        return res
+
+        max_left = 0
+        max_right = 0
+
+        left_max = [0]*len(height)
+        right_max = [0]*len(height)
+
+        for i in range(len(height)):
+            j = -i-1 #to start index from the back
+            left_max[i] = max_left
+            right_max[j] = max_right
+
+            max_left = max(max_left, height[i])
+            max_right = max(max_right, height[j])
+
+
+        summ = 0
+
+        for i in range(len(height)):
+            potential = min(left_max[i], right_max[i])
+
+            summ += max(0,potential - height[i])
+
+
+        return summ
