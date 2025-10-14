@@ -1,21 +1,19 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
 
-        i = 0
-        j = len(height)-1
-        area = 0
+        max_water = 0
 
-        while i<j:
-            area = max(area, (min(height[i],height[j])*(j-i)))
+        left = 0
+        right = len(height)-1
 
-            if height[i] < height[j]:#move along the smaller line to maximise the potential of finding the "longest shorter" line. < and <= works
-                i+=1
-            elif height[i] > height[j]:
-                j-=1
-            elif height[i] == height[j]:
-                i+=1
-                j-=1
+        while left < right:
+            area = min(height[left], height[right])*(right-left) #start at max width
 
+            max_water = max(max_water, area)
 
-        return area
-        
+            if height[left]<= height[right]:#we try to maximize the smaller constraint in the aim to find the bigger area
+                left += 1
+            else:
+                right -= 1
+
+        return max_water     
