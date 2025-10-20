@@ -111,6 +111,7 @@
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0071-simplify-path) |
+| [0076-minimum-window-substring](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
@@ -192,6 +193,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
@@ -224,6 +226,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
