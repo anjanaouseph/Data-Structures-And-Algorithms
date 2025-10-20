@@ -22,7 +22,7 @@ class Solution:
         while right < n2:
             hashMap2[ord(s2[right])-ord('a')] += 1
 
-            while right-left+1 > n1:
+            while right-left+1 > n1:#if condition also works here because if the window grows by 1 we shrink it.
                 hashMap2[ord(s2[left])-ord('a')] -= 1
                 left += 1
             
