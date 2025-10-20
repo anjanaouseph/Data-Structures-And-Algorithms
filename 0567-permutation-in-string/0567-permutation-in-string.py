@@ -1,31 +1,34 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
+
+        #two hashmaps to store the frequency
+
         n1 = len(s1)
         n2 = len(s2)
 
-        if n1>n2:
+        if n1>n2:#if second string is smaller then definitely it won't exist.
             return False
 
-        map1 = [0]*26
-        map2 = [0]*26
+        hashMap1 = [0]*26
+        hashMap2 = [0]*26
 
         for i in range(n1):
-            map1[ord(s1[i])-ord('a')] += 1
-            map2[ord(s2[i])-ord('a')] += 1
+            hashMap1[ord(s1[i])-ord('a')] += 1
 
-        if map1 == map2:
-            return True
+        
+        left = 0
+        right = 0
 
-        l = 0
-        r = n1
-        while r<len(s2):
-            map2[ord(s2[r])-ord('a')] += 1
-            map2[ord(s2[l])-ord('a')] -= 1
+        while right < n2:
+            hashMap2[ord(s2[right])-ord('a')] += 1
 
-            if map1 == map2:
+            if right-left+1 > n1:
+                hashMap2[ord(s2[left])-ord('a')] -= 1
+                left += 1
+            
+            if hashMap1 == hashMap2:
                 return True
 
-            l += 1
-            r += 1
-        
+            right += 1
+
         return False
