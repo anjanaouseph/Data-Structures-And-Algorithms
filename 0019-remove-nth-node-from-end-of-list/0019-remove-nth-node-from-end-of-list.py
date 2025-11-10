@@ -7,20 +7,36 @@ class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
 
         dummy = ListNode()
-
-        behind = ahead = dummy #ahead and behind pointers pointing to dummy
-
         dummy.next = head
 
-        #move the ahead point to n+1 node from dummy
+        curr = head
+        length = 0
 
-        for _ in range(n+1):
-            ahead = ahead.next
+        #find the length of the linked-list first
+        while curr:
+            length += 1
+            curr = curr.next
 
-        while ahead:
-            behind = behind.next
-            ahead = ahead.next
+        curr = dummy
+        count = 0
 
-        behind.next = behind.next.next
+        while curr:
+            if count == length - n:
+                break
+            count += 1
+            curr = curr.next
+
+        if curr.next:
+            curr.next = curr.next.next
+
 
         return dummy.next
+            
+
+        
+
+
+
+
+            
+        
