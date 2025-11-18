@@ -6,30 +6,27 @@
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 
-        carry = 0
-
         dummy = ListNode()
 
         curr = dummy
 
+        total , carry = 0,0
+
+
         while l1 or l2 or carry:
-            a = l1.val if l1 else 0
-            b = l2.val if l2 else 0
+            v1 = l1.val if l1 else 0
+            v2 = l2.val if l2 else 0
 
-            sum = (a+b+carry) % 10
-            carry = (a+b+carry) // 10
+            total = v1 + v2 + carry
+            
+            digit = total % 10 #ones place will be the digit as no is reversed
 
-            curr.next = ListNode(val = sum)
+            carry = total // 10 #tens place digit is the carry as no is reversed
 
+            curr.next = ListNode(digit)
             curr = curr.next
 
             l1 = l1.next if l1 else None
             l2 = l2.next if l2 else None
 
         return dummy.next
-
-
-
-
-
-        
