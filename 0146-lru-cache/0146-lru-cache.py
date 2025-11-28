@@ -1,65 +1,80 @@
-class Node:
-    def __init__(self, key, val):
+class ListNode:
+    def __init__(self, key, val): #DLL
         self.key = key
         self.val = val
-        self.next = self.prev = None
+        self.next = None
+        self.prev = None
 
 class LRUCache:
 
     def __init__(self, capacity: int):
+        self.hashMap = {}
+
         self.capacity = capacity
 
-        #hashmap for O(1) get and put else it will be O(n)
-        self.cache = {} #hashmap tp store key and values as Nodes
+        #create 2 dummy nodes
 
-        #initialize dummy nodes for DLL
-        self.left = self.right = Node(0,0)
+        self.head = ListNode(0,0)
+        self.tail = ListNode(0,0)
 
-        #connect next and prev pointers
-        self.left.next = self.right
-        self.right.prev = self.left
+        self.head.next = self.tail
+        self.tail.prev = self.head     
 
-    #remove the node from the LL and add it to the right side
-    def remove(self, node):
-        prev, nxt = node.prev, node.next
-        prev.next = nxt
-        nxt.prev = prev
+    def get(self, key: int) -> int:  #u need to remove it and add it to the end again
+        if key not in self.hashMap:
+            return -1
 
-    #insert node to the linkedlist, at the rightmost end as thats the MRU
-    def insert(self, node):
-        prev = self.right.prev
-        prev.next = node
-        node.next = self.right
-        node.prev = prev
-        self.right.prev = node
-        
+        node = self.hashMap[key]
 
-    def get(self, key: int) -> int:
-        key_val = -1
-        if key in self.cache:
-            self.remove(self.cache[key])#delete the node from DLL
-            self.insert(self.cache[key])#add to right side of the DLL its MRU
-            key_val = self.cache[key].val       
-        return key_val
-        
-        
+        self.remove(node)
+        self.add(node)
+
+        return node.val
+
+        #what happens if we add first then remove the node?
 
     def put(self, key: int, value: int) -> None:
-        node = Node(key, value)
-        if key in self.cache:
-            self.remove(self.cache[key])
-            self.insert(node)
-            self.cache[key] = node
-        else:
-            self.insert(node)
-            self.cache[key] = node
 
-        if len(self.cache) > self.capacity:
-            del self.cache[self.left.next.key]
-            self.remove(self.left.next)
+        if key in self.hashMap:
+            old_node = self.hashMap[key]
+            self.remove(old_node)
+
+        new_node = ListNode(key, value)
+        self.hashMap[key] = new_node
+        self.add(new_node)
+
+        if len(self.hashMap) > self.capacity:
+            first_node = self.head.next
+            self.remove(first_node)
+
+            del self.hashMap[first_node.key] #delete it from hashMap also
+
+
+    #define function to add Node to the end of the DLL (Most recently used node is this)
+    def add(self, node):
+        #remember tail is just dummy not an actual node 
+
+        #adding a node to the end of the DLL
+        prev_node = self.tail.prev
+        prev_node.next = node
+        node.prev = prev_node
+
+        node.next = self.tail
+        self.tail.prev = node
+
+    def remove(self,node):
+        #removing a node from the LL
+        prev_node = node.prev
+        next_node = node.next
+
+        prev_node.next = next_node
+        next_node.prev = prev_node
 
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
+
+# you don’t need to manually delete the node from memory.
+# You just need to remove all references to it. Python will handle the rest.
