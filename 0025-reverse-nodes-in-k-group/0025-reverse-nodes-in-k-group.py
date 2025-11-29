@@ -25,8 +25,8 @@ class Solution:
             reversed_head = self.reverse(curr)
 
             if curr == head: #only for first node we do this
-                new_head = reversed_head #(or kth_node)
-                dummy.next = new_head
+                #new_head = reversed_head #(or kth_node)
+                dummy.next = reversed_head
             else:
                 k_tail.next = reversed_head
                 
