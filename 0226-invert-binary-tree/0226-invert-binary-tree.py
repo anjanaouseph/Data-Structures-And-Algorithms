@@ -4,22 +4,20 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import deque
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
             return
 
-        queue = deque()
-        queue = deque([root])
+        stack = [root] #dfs
 
-        while queue:
-            node = queue.popleft()
+        while stack:
+            node = stack.pop()
             node.left, node.right = node.right, node.left #python internally uses a temporary tuple
             if node.left:
-                queue.append(node.left)
+                stack.append(node.left)
             if node.right:
-                queue.append(node.right)
+                stack.append(node.right)
 
             
         return root
