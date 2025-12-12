@@ -4,24 +4,35 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+from collections import deque
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
-        #DFS using stack
-
-        queue = deque([root])
 
         level = 0
+        #we need to do a BFS
+        queue = deque([(root, 1)])
 
         while queue:
-            for i in range(len(queue)):
-                node = queue.popleft()
+            node, depth = queue.popleft()
+            level = max(level, depth)
 
-                if node.left:
-                    queue.append(node.left)
-                if node.right:
-                    queue.append(node.right)
-            level += 1
+            if node.left:
+                queue.append((node.left,depth+1))
+
+            if node.right:
+                queue.append((node.right, depth+1))
 
         return level
+            
+
+
+
+
+
+
+
+
+        
