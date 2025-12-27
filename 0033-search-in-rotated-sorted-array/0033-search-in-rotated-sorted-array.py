@@ -3,7 +3,7 @@ class Solution:
         low = 0
         high = len(nums)-1
 
-        while low <= high:
+        while low <high:
             mid = low + (high - low)//2 #to take care of integer overflow    
 
             if nums[mid] == target:
@@ -22,5 +22,7 @@ class Solution:
                     low = mid+1
                 else:
                     high = mid-1
+        if nums[low] == target:
+            return low
 
         return -1        
