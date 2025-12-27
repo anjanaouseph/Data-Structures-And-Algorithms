@@ -3,7 +3,7 @@ class Solution:
         low = 0
         high = len(nums)-1
 
-        while low <= high:
+        while low < high:
             if nums[low] <= nums[high]: #when there is only one element or its a sorted array in asc
                 return nums[low] 
 
@@ -17,6 +17,5 @@ class Solution:
             if nums[low] <= nums[mid]:
                 low = mid+1
             else:
-                high = mid-1
-
-        return -1
+                high = mid
+        return nums[low]
