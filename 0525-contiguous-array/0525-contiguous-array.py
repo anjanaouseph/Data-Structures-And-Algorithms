@@ -22,3 +22,8 @@ class Solution:
                 hashMap[prefix_sum] = i
 
         return max_len    
+
+#     We can't use defaultdict(int) here because then hashMap[prefix_sum] check fails, since any missing key returns 0. 
+#     And 0 is falsy, so you can’t tell the difference between:
+#     “prefix_sum not in map” should go to else
+#     “prefix_sum first occurred at index 0” should go to if, but index 0 is falsy
