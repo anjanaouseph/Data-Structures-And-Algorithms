@@ -14,15 +14,17 @@ class Solution:
         total = row*col
         high = total-1
 
-        while low <= high:
+        while low < high:
             mid = low + (high - low)//2
 
             if matrix[mid//col][mid%col] == target:
                 return True
             elif target < matrix[mid//col][mid%col]:
-                high = mid-1
+                high = mid
             else:
                 low = mid+1
+        if matrix[low//col][low%col] == target:
+            return True
 
         return False
         
