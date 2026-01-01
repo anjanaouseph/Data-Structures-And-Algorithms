@@ -26,5 +26,5 @@ class Solution:
 
         return False
         
-    # Time Complexity = O(log(m+n)) #since we are doing BS on the flattened 1D array which has m*n elements
+    # Time Complexity = O(log(m*n)) #since we are doing BS on the flattened 1D array which has m*n elements
     # Space Complexity: O(1)
