@@ -7,20 +7,22 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        #iterative solution in DFS
-        if not root or not q or not p:
-            return None
+        lca = [root]
 
-        curr = root
-
-        while curr:
-            if p.val > curr.val and q.val > curr.val:
-                if curr.right:
-                    curr = curr.right
-            elif p.val < curr.val and q.val < curr.val:
-                if curr.left:
-                    curr = curr.left
+        def search(root, p, q):
+            if not root:
+                return None
+            lca[0] = root
+            if p.val > root.val and q.val > root.val:
+                search(root.right,p, q)
+            elif p.val < root.val and q.val < root.val:
+                search(root.left,p, q)
+            elif p.val == root.val or q.val == root.val:
+                return
             else:
-                return curr
+                return #case where both branches diverge
 
-        return None        
+        search(root,p,q)
+        return lca[0]
+                
+            
