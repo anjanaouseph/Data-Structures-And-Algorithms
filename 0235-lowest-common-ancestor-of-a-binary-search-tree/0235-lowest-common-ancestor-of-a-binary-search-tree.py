@@ -11,29 +11,16 @@ class Solution:
         if not root or not q or not p:
             return None
 
-        stack = [root]
+        curr = root
 
-        while stack:
-            size = len(stack)
-            for i in range(size):
-                root = stack.pop()
+        while curr:
+            if p.val > curr.val and q.val > curr.val:
+                if curr.right:
+                    curr = curr.right
+            elif p.val < curr.val and q.val < curr.val:
+                if curr.left:
+                    curr = curr.left
+            else:
+                return curr
 
-                if root.val == p.val or root.val == q.val:
-                    return root
-                elif p.val > root.val and q.val > root.val:
-                    if root.right:
-                        stack.append(root.right)
-                elif p.val < root.val and q.val < root.val:
-                    if root.left:
-                        stack.append(root.left)
-                else:
-                    return root
-
-        return None
-
-
-
-
-
-
-        
+        return None        
