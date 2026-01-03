@@ -18,5 +18,4 @@ class Solution:
 
             return dfs(root.left, root.val, min_val) and dfs(root.right, max_val, root.val)
 
-        if dfs(root, float('inf'), float('-inf')): return True
-        return False
+        return dfs(root, float('inf'), float('-inf'))
