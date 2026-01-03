@@ -17,8 +17,6 @@ class Solution:
                 search(root.right,p, q)
             elif p.val < root.val and q.val < root.val:
                 search(root.left,p, q)
-            elif p.val == root.val or q.val == root.val:
-                return
             else:
                 return #case where both branches diverge
 
