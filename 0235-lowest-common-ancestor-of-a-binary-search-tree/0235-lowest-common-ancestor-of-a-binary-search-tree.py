@@ -18,7 +18,7 @@ class Solution:
             elif p.val < root.val and q.val < root.val:
                 search(root.left,p, q)
             else:
-                return #case where both branches diverge
+                return #case where both branches diverge and where p == root or q == root
 
         search(root,p,q)
         return lca[0]
