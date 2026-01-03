@@ -4,22 +4,19 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import deque
+
+#recursive solution
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        if not root:
-            return False
-        
-        queue = collections.deque([(root, float("inf"), float("-inf"))])
 
-        while queue:
-            size = len(queue)
-            for i in range(size):
-                node, max_val, min_val = queue.popleft()
-                if not min_val < node.val < max_val:
-                    return False
-                if node.left:
-                    queue.append((node.left, node.val, min_val))
-                if node.right:
-                    queue.append((node.right, max_val, node.val))
-        return True        
+        def dfs(root, max_val, min_val):
+            if not root:
+                return True
+
+            if not min_val < root.val < max_val:
+                return False
+
+            return dfs(root.left, root.val, min_val) and dfs(root.right, max_val, root.val)
+
+        if dfs(root, float('inf'), float('-inf')): return True
+        return False
