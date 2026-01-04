@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        #iterative in-order traversal
+        #iterative pre-order traversal
 
         count = 1
         smallest = -1
