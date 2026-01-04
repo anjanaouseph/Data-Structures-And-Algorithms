@@ -15,7 +15,7 @@ class Solution:
                 if j < coins[i-1]: #amount < coin then not possible i-1 to map to index in original coins array because now we have a preceeding 0 in coins array due to dummy row [0 1 2 5] instead of [1 2 5]
                     dp[i][j] = dp[i-1][j] #copy the value from the prev row as it is
                 else:
-                    dp[i][j] = min(dp[i-1][j], 1+dp[i][j - coins[i-1]])
+                    dp[i][j] = min(dp[i-1][j], 1+dp[i][j - coins[i-1]]) #if condition above ensures dp[i][j - coins[i-1] is not out of bounds. as we are checking if j < coins[i-1] case.
                     #taking the min of : case where we don't choose that coin and case where we choose the coin + 1. 
 
         return -1 if dp[m][n] == float('inf') else dp[m][n]     
