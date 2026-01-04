@@ -8,10 +8,10 @@ class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         #since this is a BST, in-order traversal gives the nodes in increasing order
         count = [1]
-        smallest = [0]
+        smallest = [-1]
 
         def dfs(root):
-            if not root:
+            if not root or smallest[0] >-1:
                 return
 
             dfs(root.left)
