@@ -17,9 +17,10 @@ class Solution:
             dfs(root.left)
 
             #process the root
-            if count[0] <= k:
+            if count[0] == k:
                 smallest[0] = root.val
-                count[0] = count[0]+1
+            
+            count[0] = count[0]+1
 
             dfs(root.right)
         
