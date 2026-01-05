@@ -12,8 +12,8 @@ class Solution:
             dp[j] = float('inf') 
 
         #now lets fill the actual table
-        for i in range(1,m+1):#skip first row which is the dummy row
-            for j in range(n+1): #cant skip first column.
+        for i in range(1,m+1):
+            for j in range(n+1): 
                 if j < coins[i-1]: #amount < coin then not possible i-1 to map to index in original coins array because now we have a preceeding 0 in coins array due to dummy row [0 1 2 5] instead of [1 2 5]
                     dp[j] = dp[j] #copy the value from the prev row as it is
                 else:
