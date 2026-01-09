@@ -10,7 +10,7 @@ class Solution:
 
         #find all cases where we need to reverse directions
 
-        for i in range(m*n):
+        while row < m and col < n:
             result.append(mat[row][col]) #always add the first element
 
             if dir: #for upward traversals boundaries are roof and  right so when we hit boundaries
