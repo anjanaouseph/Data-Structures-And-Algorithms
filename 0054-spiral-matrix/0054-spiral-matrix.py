@@ -12,7 +12,8 @@ class Solution:
 
         def helper(matrix, top, left, right, bottom, result):
 
-            if top > bottom or left > right:
+            if top > bottom or left > right: #That’s the key reason recursion depth is min(m, n). Stop when either dimensionality is
+                #exhausted
                 return
 
             for i in range(left, right+1):
