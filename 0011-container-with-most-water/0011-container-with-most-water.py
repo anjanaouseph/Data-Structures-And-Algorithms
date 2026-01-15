@@ -1,5 +1,4 @@
-#limiting factors are width and min(h1,h1), the min height. So we start with max width possible and the
-#move the pointers accordingly to maximize the area possible.
+#limiting factors are width and min(h1,h1), the min height. So we start with max width possible (two-pointer greedy approach) and the move the pointers accordingly to maximize the area possible.
 #after we have explored the max water possible with a pointer (left or right), we move it.
 
 class Solution:
@@ -20,6 +19,3 @@ class Solution:
                 right -=1
 
         return max_area
-
-
-        
