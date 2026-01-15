@@ -9,7 +9,7 @@ class Solution:
 
         left , right = 0, len(height)-1
 
-        while left < right: #it can be left < right also
+        while left <= right: #it can be left < right also
             area = min(height[left], height[right]) * (right-left)
 
             max_area = max(area, max_area)
