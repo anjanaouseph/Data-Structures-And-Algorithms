@@ -21,7 +21,8 @@ class Solution:
             if complement in seen:
                 triplet = sorted([complement, nums[j], nums[start]]) #O(3) 
                 result.add(tuple(triplet))
-            seen.add(nums[j])
+            else:
+                seen.add(nums[j])
 
 # You only skip duplicates after a valid triplet
 # You never skip a value that could form a new combination, so can't add duplicate check condition for inner j loop. Use sorting here.
