@@ -1,28 +1,26 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
+        #hashing based solution
+        nums.sort()
 
-        nums.sort() #to prevent duplicates, so we can check if i+1 and i are same element or not
+        result = set()
 
-        res = []
-
-        for i,a in enumerate(nums):
-            if i>0 and nums[i] == nums[i-1]:
+        for i in range(len(nums)):
+            if i != 0 and nums[i] == nums[i-1]:#to avoid duplicates iterate till u find next unique
                 continue
 
-            left = i+1
-            right = len(nums)-1
+            inner_sum = -nums[i]
+            seen = set()
+            for j in range(i+1,len(nums)):
+                compliment = inner_sum - nums[j]
 
-            while left < right:
-                three_sum = a+nums[left]+nums[right]
-                if three_sum > 0:
-                    right -= 1
-                elif three_sum < 0:
-                    left += 1
-                else:
-                    res.append([a, nums[left], nums[right]])
+                if compliment in seen:
+                    triplet = sorted([compliment, nums[j], nums[i]])
+                    result.add(tuple(triplet))
+                seen.add(nums[j])
 
-                    left += 1 #increment that left pointer to avoid duplicates of left,right
-                    while nums[left] == nums[left-1] and left<right: #just need to increment the left to avoid duplicates, the 2 pointer alg will take care of right pointer
-                        left += 1
+        return [list(triplet) for triplet in result]
 
-        return res
+# You only skip duplicates after a valid triplet
+# You never skip a value that could form a new combination, so can't add duplicate check condition for inner j loop. Use sorting here.
+# Order guarantees no missed cases
