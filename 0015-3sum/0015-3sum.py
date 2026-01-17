@@ -8,6 +8,9 @@ class Solution:
         for i in range(len(nums)):
             if i != 0 and nums[i] == nums[i-1]:
                 continue
+            if nums[i] > 0:
+                break #early stopping as we are already sorted the array in asc order so elements after this will always be larger and
+                #we won't get sum = 0.
             
             left = i+1
             right = len(nums)-1
