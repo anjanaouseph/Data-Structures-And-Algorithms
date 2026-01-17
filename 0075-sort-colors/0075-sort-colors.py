@@ -18,3 +18,12 @@ class Solution:
                 mid += 1 #left is sorted so move mid. everything before mid was already processed, so the swapped value is guaranteed to be a 1. it can't be a 2 as its always taken care of first.
             else:
                 mid += 1
+
+# You only move mid when you are sure the value at mid is finalized.
+
+# After 0 → finalized
+# After 1 → finalized
+# After swapping with right → not finalized
+
+# Time complexity: O(N)
+# Space Complexity: O(1)
