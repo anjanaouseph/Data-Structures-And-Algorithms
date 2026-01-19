@@ -7,7 +7,7 @@ class Solution:
         second = n-1
         curr = len(nums1)-1
 
-        while first>=0 and second>=0:#stop when either array is exhausted
+        while first >= 0 and second >= 0:#stop when either array is exhausted
             if nums1[first] > nums2[second]:
                 nums1[curr] = nums1[first]
                 first -= 1
@@ -17,13 +17,13 @@ class Solution:
                 second -= 1
                 curr -= 1
 
-        if first < 0:#first array got exhausted, then copy second to first
+        if first < 0:#first array got exhausted, then copy second to first. Meaning we processed all elements in first array to their correct position
             while second >= 0:
                 nums1[curr] = nums2[second]
                 curr -= 1
                 second -=1
 
-        #if second array got exhausted do nothing.
+        #if second array got exhausted do nothing. as it will be correctly placed to the end of the nums1 array.
 
 
 #if we start from the begining of array, there is a chance we may lose the sorting
