@@ -15,7 +15,7 @@ class Solution:
         m = len(matrix)
         n = len(matrix[0])
 
-        #right most corner
+        #right most corner, for left bottom take accordingly
         row = 0
         col = n-1
 
@@ -28,3 +28,6 @@ class Solution:
                 col -= 1
 
         return False
+
+        # Time Complexity: O(m+n)
+        # Space Complexity : O(1)
