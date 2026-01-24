@@ -6,11 +6,9 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        slow = fast = head
+        fast = head
+        slow = head
 
-        # If there’s a loop, fast can never “fall off” the list.
-        # So at some point, both slow and fast will be inside the cycle.
-        
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
