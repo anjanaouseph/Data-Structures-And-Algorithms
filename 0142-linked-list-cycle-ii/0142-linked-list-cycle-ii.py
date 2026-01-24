@@ -18,10 +18,10 @@ class Solution:
 
             if slow == fast:
                 slow = head #cycle detected so point to head
-                count = 0
-                while slow != fast:
+                while slow and fast:
+                    if slow == fast:
+                        return slow
                     slow = slow.next
                     fast = fast.next
-                return slow
 
         return None
