@@ -11,12 +11,11 @@ class Solution:
             return head
 
         node = self.reverseList(head.next)
-        head.next.next = head
+        temp = head.next
         head.next = None
+        temp.next = head
         return node
 
-        
-        
-        
+                
 # Time Complexity: O(N)
 # Space Complexity: O(N)
