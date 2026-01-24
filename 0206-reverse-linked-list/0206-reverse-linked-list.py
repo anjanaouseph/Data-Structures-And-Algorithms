@@ -3,19 +3,20 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+#recursion
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head:
-            return None
 
-        prev = None
-        curr = head
+        if not head or not head.next:
+            return head
 
-        while curr:
-            temp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = temp
+        node = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return node
 
-        return prev
         
+        
+        
+# Time Complexity: O(N)
+# Space Complexity: O(N)
