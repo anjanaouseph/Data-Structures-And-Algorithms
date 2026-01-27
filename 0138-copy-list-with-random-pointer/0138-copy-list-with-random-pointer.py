@@ -9,7 +9,6 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-
         if not head:
             return None
 
@@ -18,15 +17,16 @@ class Solution:
         curr = head
 
         while curr:
-            hashMap[curr] = Node(curr.val)
+            dummy = Node(curr.val, None, None)
+            hashMap[curr] = dummy
             curr = curr.next
 
-        
-        curr = head
+            #next and random are addresses so can't copy that now
 
-        while curr:
-            hashMap[curr].next = hashMap[curr.next] if curr.next else None
-            hashMap[curr].random = hashMap[curr.random] if curr.random else None
-            curr = curr.next
+        for old in hashMap.keys():
+            hashMap[old].next = hashMap[old.next] if old.next else None
+            hashMap[old].random = hashMap[old.random] if old.random else None
+            #else u will get hashMap[None] throws an error.
 
         return hashMap[head]
+        
