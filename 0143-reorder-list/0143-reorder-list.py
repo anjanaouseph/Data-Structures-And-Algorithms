@@ -8,35 +8,43 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
+        if not head:
+            return None
+
         slow = head
         fast = head.next
 
-        while fast and fast.next:#fast can go till none
-            slow = slow.next #increment slow by 1
-            fast = fast.next.next #increment fast by 2
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-            #now we got the LL divided into 2 halves, slow.next is the first element of 2nd half.
-        second = slow.next #second pointer starts from first element of the second part
-        prev = slow.next = None #setting end of first half as None because we are splitting the linkedlist
+        #slow will land at right middle for even length
 
-        while second:#inplace reversal
-            temp = second.next
-            second.next = prev
-            prev = second
-            second = temp
+        curr = slow.next
+        slow.next = None
 
-        #Now first half points to head
-        #Second half head is at prev
-        #just reassign second to point to prev
-        first = head
-        second = prev
+        prev = None
 
-        while second:#since second will be the shorter list if nodes are odd.
-            temp1 = first.next #save the links which we are going to cut
-            temp2 = second.next
-            first.next = second
-            second.next = temp1
-            first = temp1
-            second = temp2
+        #reverse the second half
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
 
-        #since both linkedlist ends with a None, the resultant will have None in the end anyways.
+        curr = dummy = ListNode()
+        list1 = head
+        list2 = prev
+
+        while list1 and list2:
+            curr.next = list1
+            list1 = list1.next
+            curr = curr.next
+
+            curr.next = list2
+            list2 = list2.next
+            curr = curr.next
+
+        curr.next = lis2 if list2 else list1
+
+        return dummy.next     
