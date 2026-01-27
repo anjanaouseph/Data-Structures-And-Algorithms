@@ -5,25 +5,24 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        if not l1 and not l2:
+            return None
 
-        dummy = ListNode()
-
+        carry = 0
+        dummy = ListNode(-1)
         curr = dummy
-
-        total , carry = 0,0
-
 
         while l1 or l2 or carry:
             v1 = l1.val if l1 else 0
             v2 = l2.val if l2 else 0
+            total_sum = v1+v2+carry
 
-            total = v1 + v2 + carry
-            
-            digit = total % 10 #ones place will be the digit as no is reversed
+            summ = total_sum%10
+            carry = total_sum//10
 
-            carry = total // 10 #tens place digit is the carry as no is reversed
+            result = ListNode(summ)
 
-            curr.next = ListNode(digit)
+            curr.next = result
             curr = curr.next
 
             l1 = l1.next if l1 else None
