@@ -36,11 +36,11 @@ class Solution:
         list2 = prev
 
         while list2: #list2 will always be smaller
-            temp = list1.next
+            temp1 = list1.next
             temp2 = list2.next
 
             list1.next = list2
-            list2.next = temp
+            list2.next = temp1
 
-            list1 = temp
+            list1 = temp1
             list2 = temp2
