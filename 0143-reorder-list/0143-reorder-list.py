@@ -32,19 +32,15 @@ class Solution:
             prev = curr
             curr = temp
 
-        curr = dummy = ListNode()
         list1 = head
         list2 = prev
 
-        while list1 and list2:
-            curr.next = list1
-            list1 = list1.next
-            curr = curr.next
+        while list2: #list2 will always be smaller
+            temp = list1.next
+            temp2 = list2.next
 
-            curr.next = list2
-            list2 = list2.next
-            curr = curr.next
+            list1.next = list2
+            list2.next = temp
 
-        curr.next = lis2 if list2 else list1
-
-        return dummy.next     
+            list1 = temp
+            list2 = temp2
