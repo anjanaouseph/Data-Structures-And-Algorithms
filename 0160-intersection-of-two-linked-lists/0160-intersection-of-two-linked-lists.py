@@ -24,21 +24,17 @@ class Solution:
             lengthB += 1
             curr = curr.next
 
-        if lengthA > lengthB:#B is smaller
-            slow = headB
+        slow = headA
+        fast = headB
 
-            diff = lengthA - lengthB
+        while lengthA > lengthB:
+            slow = slow.next
+            lengthA -= 1
 
-            fast = headA
-            for i in range(diff):
-                fast = fast.next
-        else: #A is smaller or both equal
-            slow = headA
-            diff = lengthB - lengthA
-            fast = headB
+        while lengthB > lengthA:
+            fast = fast.next
+            lengthB -= 1
 
-            for i in range(diff):
-                fast = fast.next
 
         while slow != fast:
             slow = slow.next
