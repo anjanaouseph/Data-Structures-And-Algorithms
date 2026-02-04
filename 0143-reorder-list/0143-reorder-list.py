@@ -34,11 +34,12 @@ class Solution:
         l2 = prev
 
 
-        while l2:
+        while l2:#l2 will be slower or same size
             temp1 = l1.next
-            l1.next = l2
-            l1 = temp1
 
-            temp2 = l2.next
-            l2.next = temp1
-            l2 = temp2        
+            l1.next = l2
+            l2 = l2.next  
+            l1.next.next = temp1
+
+            l1 = temp1
+                
