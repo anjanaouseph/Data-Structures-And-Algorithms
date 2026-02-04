@@ -8,8 +8,8 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        if not head:
-            return None
+        if not head or not head.next:
+            return
 
         slow = head
         fast = head
@@ -18,29 +18,27 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
 
-        #slow will land at right middle for even length
-
-        curr = slow.next
-        slow.next = None
-
+        #now slow will point to the middle node
         prev = None
+        curr = slow.next
 
-        #reverse the second half
         while curr:
             temp = curr.next
             curr.next = prev
             prev = curr
             curr = temp
 
-        list1 = head
-        list2 = prev
+        slow.next = None
 
-        while list2: #list2 will always be smaller
-            temp1 = list1.next
-            temp2 = list2.next
+        l1 = head
+        l2 = prev
 
-            list1.next = list2
-            list2.next = temp1
 
-            list1 = temp1
-            list2 = temp2
+        while l2:
+            temp1 = l1.next
+            l1.next = l2
+            l1 = temp1
+
+            temp2 = l2.next
+            l2.next = temp1
+            l2 = temp2        
