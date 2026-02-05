@@ -72,6 +72,15 @@ class LRUCache:
         node.prev = prev_node
         self.tail.prev = node
 
+    #if later we need to support resizing
+    # def resize(self, new_capacity):
+    #     self.capacity = new_capacity
+    #     while len(self.hashMap) > self.capacity:
+    #         lru = self.head.next
+    #         self.remove(lru)
+    #         del self.hashMap[lru.key]
+
+
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
