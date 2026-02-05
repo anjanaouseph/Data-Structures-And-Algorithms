@@ -5,49 +5,61 @@
 #         self.next = next
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        if not head or not head.next or k <= 1:
+            return head
+
+        curr = head
+        count = 0
 
         dummy = ListNode()
-        curr = head
+        dummy.next = head
         k_tail = dummy
-        dummy.next = curr
 
         while curr:
-            #find kth node
-            kth_node = self.find_kth_node(curr, k)
+            kth_node = self.find_kth(curr, k)
 
             if not kth_node:
-                k_tail.next = curr #just join the remaining nodes without reversing
                 break
 
             next_node = kth_node.next
-            kth_node.next = None #do this else reverse function will reverse everything in the LL till the end. So cut the LL here.
+            kth_node.next = None #else it will reverse everything till end of LL
 
             reversed_head = self.reverse(curr)
 
-            if curr == head: #only for first node we do this
-                #new_head = reversed_head #(or kth_node)
+            curr.next = next_node
+
+            if curr == head:
                 dummy.next = reversed_head
             else:
                 k_tail.next = reversed_head
-                
+
             k_tail = curr
             curr = next_node
 
         return dummy.next
-
-
-    def find_kth_node(self, curr, k):
-        while curr and k > 1:
-            curr = curr.next
-            k -= 1
-        return curr
-
-    def reverse(self, curr):
+    
+    def reverse(self,head):
         prev = None
+
+        curr = head
 
         while curr:
             temp = curr.next
             curr.next = prev
             prev = curr
             curr = temp
+
         return prev
+
+    def find_kth(self,curr, k):
+
+        count = 0
+
+        while curr:
+            count += 1
+
+            if count == k:
+                return curr
+            
+            curr = curr.next
+        return None
