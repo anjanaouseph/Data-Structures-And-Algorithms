@@ -46,6 +46,7 @@ class LRUCache:
         if len(self.hashMap) > self.capacity:
             first_node = self.head.next
             self.remove(first_node)
+
             del self.hashMap[first_node.key] #delete it from hashMap also
 
 
