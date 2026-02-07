@@ -8,24 +8,40 @@ import heapq
 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        if not lists:
+            return None
 
-        #since there are more than two or k LL we need to use a heap. Else follow merge two sorted LLs solution.
+        #merging each list one by one
+        merged = None
 
-        heap = []
+        for list in lists:
+            merged = self.merge(merged, list)
 
-        dummy = ListNode()
+        return merged
+
+    def merge(self,list1, list2):
+
+        dummy = ListNode(-1)
+
         curr = dummy
 
-        for i, node in enumerate(lists): #o(k)
-            if node:
-                heapq.heappush(heap, (node.val, i, node)) #we push the head of each LL not all elements. so K elements at a time in heap., we need node value to get next element
+        while list1 and list2:
+            if list1.val < list2.val:
+                curr.next = list1
+                list1 = list1.next
+            else:
+                curr.next = list2
+                list2 = list2.next
+            curr = curr.next
 
-        while heap: #loop runs exactly N times.
-            val, i, node = heapq.heappop(heap) 
-            curr.next = node
-            curr = node
-            node = node.next
-            if node:
-                heapq.heappush(heap, (node.val, i, node))
+        if list1:
+            curr.next = list1
 
-        return dummy.next    
+        else:
+            curr.next = list2
+
+        return dummy.next
+    
+
+# Time Complexity: O(Nlogn) where N is no of nodes
+# Space Complexity: O(N)
