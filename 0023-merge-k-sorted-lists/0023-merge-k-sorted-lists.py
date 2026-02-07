@@ -11,37 +11,23 @@ class Solution:
         if not lists:
             return None
 
-        #merging each list one by one
-        merged = None
+        heap = [] #size will be k
 
-        for list in lists:
-            merged = self.merge(merged, list)
-
-        return merged
-
-    def merge(self,list1, list2):
+        for i,node in enumerate(lists):
+            if node is not None:
+                heapq.heappush(heap, (node.val,i, node)) #O(logn)*k if there is a tie compare with index value
 
         dummy = ListNode(-1)
 
         curr = dummy
 
-        while list1 and list2:
-            if list1.val < list2.val:
-                curr.next = list1
-                list1 = list1.next
-            else:
-                curr.next = list2
-                list2 = list2.next
+        while heap:
+            node_val, idx, min_node = heapq.heappop(heap)
+            curr.next = min_node
+
+            if min_node.next is not None:
+                heapq.heappush(heap,(min_node.next.val, idx, min_node.next))
+            
             curr = curr.next
 
-        if list1:
-            curr.next = list1
-
-        else:
-            curr.next = list2
-
         return dummy.next
-    
-
-# Time Complexity: O(Nlogn) where N is no of nodes
-# Space Complexity: O(N)
