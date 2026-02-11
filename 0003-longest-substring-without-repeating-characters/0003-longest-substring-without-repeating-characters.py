@@ -10,7 +10,9 @@ class Solution:
         for i in range(len(s)):
             c = s[i]
             if c in hashMap:
-                slow = max(slow, hashMap[c]+1) #if slow ptr has gone past the index of c, then take the current pos of slow ptr, meaning the duplicate is not part of current substring, else jump slow to index+1
+                slow = max(slow, hashMap[c]+1) #For each character, we check if we’ve seen it before.
+# If we have, we move the slow pointer to one position after the previous occurrence of that character, but only if that occurrence is inside the current substring.
+# The max ensures we never move the slow pointer backward, which would break the window.
 
             hashMap[c] = i
 
