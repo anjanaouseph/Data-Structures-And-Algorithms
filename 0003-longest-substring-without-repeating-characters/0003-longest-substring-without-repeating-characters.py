@@ -3,22 +3,20 @@ class Solution:
         if not s:
             return 0
 
-        sett = set()
-
-        left, right = 0, 0
-
+        hashMap = {}
         max_len = 0
+        slow = 0
 
-        while right < len(s):
-            while s[right] in sett:
-                sett.remove(s[left])
-                left += 1
+        for i in range(len(s)):
+            c = s[i]
+            if c in hashMap:
+                slow = max(slow, hashMap[c]+1)
 
-            sett.add(s[right])
+            hashMap[c] = i
 
-            length = right-left+1
+            max_len = max(max_len, i-slow+1)
 
-            max_len = max(max_len, length)
+        return max_len
 
-            right += 1
-        return max_len      
+
+        
