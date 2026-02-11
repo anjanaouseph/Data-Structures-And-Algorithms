@@ -10,7 +10,12 @@ class Solution:
         for i in range(len(s)):
             c = s[i]
             if c in hashMap:
-                slow = max(slow, hashMap[c]+1) #if slow ptr has gone past the index of c, then take the current pos of slow ptr, meaning the duplicate is not part of current substring, else jump slow to index+1
+                #check if duplicate is part of current substring or before it
+                if hashMap[c] < slow:
+                    slow = slow
+                else:
+                    slow = hashMap[c]+1
+                #if slow ptr has gone past the index of c, then take the current pos of slow ptr, meaning the duplicate is not part of current substring, else jump slow to index+1
 
             hashMap[c] = i
 
