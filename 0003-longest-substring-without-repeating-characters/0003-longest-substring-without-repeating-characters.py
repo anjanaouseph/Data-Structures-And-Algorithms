@@ -11,10 +11,11 @@ class Solution:
             c = s[i]
             if c in hashMap:
                 #check if duplicate is part of current substring or before it
-                if hashMap[c] < slow:
-                    slow = slow
-                else:
+                if hashMap[c] >= slow:#this means part of current substring so move slow ptr
                     slow = hashMap[c]+1
+                else:
+                    slow = slow #duplicate char is behind current substring so skip, keep slow as it is
+                    
                 #if slow ptr has gone past the index of c, then take the current pos of slow ptr, meaning the duplicate is not part of current substring, else jump slow to index+1
 
             hashMap[c] = i
