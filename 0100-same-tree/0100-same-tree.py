@@ -12,7 +12,7 @@ class Solution:
 
         if not p or not q:
             return False
-            
+
         if p.val != q.val:
             return False
 
