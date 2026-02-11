@@ -14,22 +14,14 @@ class Solution:
         if not p or not q:
             return -1
 
-        ancestor = [root]
+        curr = root
 
-        def lca(root, p ,q):
-            if not root:
-                return
-
-            ancestor[0] = root
-
-            if p.val > root.val and q.val > root.val:
-                lca(root.right,p, q)
-
-            elif p.val < root.val and q.val < root.val:
-                lca(root.left, p, q)
-
+        while curr:
+            if p.val < curr.val and q.val < curr.val:
+                curr = curr.left
+            elif p.val > curr.val and q.val > curr.val:
+                curr = curr.right
             else:
-                return 
+                return curr
 
-        lca(root,p, q)
-        return ancestor[0]
+        
