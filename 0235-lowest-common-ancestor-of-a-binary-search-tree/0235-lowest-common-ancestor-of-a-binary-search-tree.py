@@ -8,11 +8,11 @@
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
 
-        if not p and not q:
-            return -1
+        # if not p and not q:
+        #     return -1
 
-        if not p or not q:
-            return -1
+        # if not p or not q:
+        #     return -1
 
         curr = root
 
