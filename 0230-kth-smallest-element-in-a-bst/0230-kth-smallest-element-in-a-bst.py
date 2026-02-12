@@ -6,32 +6,27 @@
 #         self.right = right
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        #in a bst in-order traversal gives the nodes in ascending order
+        #iterative in-order traversal
 
-        if not root:
-            return -1
+        count = 1
+        smallest = -1
+        curr = root
 
-        count = [1]
+        stack = []
 
-        ans = [-1]
+        while curr or stack:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+            
+            node = stack.pop()
 
-        def dfs(root):
-            if not root:
-                return
+            if count == k:
+                smallest = node.val
+                return smallest
 
-            dfs(root.left)
+            count = count+1
 
-            if ans[0] != -1:
-                return
+            curr = node.right
 
-            if count[0] == k:
-                ans[0] = root.val #stop recursion if ans is found
-                return
-
-            count[0] += 1
-
-            dfs(root.right)
-
-        dfs(root)
-
-        return ans[0]
+        return -1  
