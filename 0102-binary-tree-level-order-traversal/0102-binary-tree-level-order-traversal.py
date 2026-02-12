@@ -24,4 +24,7 @@ class Solution:
                 if node.right:
                     queue.append(node.right)
             result.append(level)
-        return result        
+        return result   
+
+# Time Complexity: O(N)
+# Space Complexity : O(w) which is O(1) for skewed trees and O(N/2) for complete trees     
