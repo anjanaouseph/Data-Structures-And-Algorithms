@@ -25,4 +25,7 @@ class Solution:
             if node.right:
                 stack.append((node.right, max(node.right.val, max_val)))
 
-        return count        
+        return count       
+
+# Time Complexity: O(N)
+# Space Complexity: O(H) which is O(N) for skewed trees and O(logN) for complete trees 
