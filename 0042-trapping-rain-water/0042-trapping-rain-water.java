@@ -1,43 +1,49 @@
 class Solution {
     public int trap(int[] height) {
 
+        //note maxleft and maxright won't decrease if u move inwards, they can only increase
+
         int n = height.length;
         int i = 0;
         int j = n-1;
+
         int max_left = height[i];
         int max_right = height[j];
 
-        int res = 0;
         int count = 0;
+        int res = 0;
 
-// maxLeft  = tallest wall seen so far from the LEFT side for any position at/inside i
-// maxRight = tallest wall seen so far from the RIGHT side for any position at/inside j
-        while (i < j) //when i == j, nothing to trap, no cavity
+        while (i < j)
         {
             if (max_left <= max_right)
             {
-                i ++ ;//helps eliminate the edge cases when there are no boundaries as well
-                //we found the limiting height on left side now compute the water capacity for next index
+                i++; //we found the limiting boundary for next index
+//I move the smaller side because the smaller boundary determines the water level; the other side is guaranteed to be at least as tall
+//basically iam moving this because ik this ans won't change later in the future.
                 res = Math.min(max_left, max_right)-height[i];
 
                 if (res > 0)
                     count += res;
 
-                max_left = Math.max(max_left, height[i]);
-                
-
+                max_left = Math.max(height[i], max_left);
             }
             else
             {
-                j --;
+                j--;
+
                 res = Math.min(max_left, max_right)-height[j];
-                if (res>0)
+
+                if (res > 0)
                     count += res;
 
-                max_right = Math.max(max_right, height[j]);
+                max_right = Math.max(height[j], max_right);
+
+
             }
         }
-        
+
+
         return count;
+        
     }
 }
