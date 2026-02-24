@@ -23,7 +23,8 @@ class Solution {
             if (total_sum < 0)
             {
                 total_sum = 0;
-                start_index = i+1;
+                start_index = i+1; //if this happens at last index that means u can never complete a cycle with negative value.
+                //its guaranteed a soln exists so won't happen like that.
             }
         }
 
@@ -32,3 +33,6 @@ class Solution {
         
     }
 }
+
+// TC: O(N)
+// SC: O(1)
