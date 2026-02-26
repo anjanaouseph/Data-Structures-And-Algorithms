@@ -24,3 +24,6 @@ class Solution:
                     dfs(i,j)
 
         return count       
+
+#TC = O(2m*n) for loop and dfs in worse case
+#SC = O(m*n)
