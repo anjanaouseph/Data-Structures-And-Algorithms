@@ -1,24 +1,26 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        m, n = len(grid), len(grid[0])
 
-        def dfs(i,j):
-            if i<0 or i>=m or j<0 or j>=n or grid[i][j] != "1":
+        m = len(grid)
+        n = len(grid[0])
+        count = 0
+
+        def dfs(r,c):
+            #check boundary
+            if r < 0 or c < 0 or r > m-1 or c > n-1 or grid[r][c] != '1':
                 return
-
-            grid[i][j] = "0" #flood each lands
-            dfs(i,j+1)#move to right
-            dfs(i+1,j)#move down
-            dfs(i-1,j)#move up
-            dfs(i,j-1)#move left
-
-        num_islands = 0
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == '1':
-                    num_islands += 1
-                    dfs(i,j)#to make all the connected nodes as 0
-
-        return num_islands
+            
+            grid[r][c] = 0 #flood the grid so we don't visit in next iteration or else use a seen set
+            dfs(r+1, c) 
+            dfs(r,c+1) 
+            dfs(r-1, c)
+            dfs(r, c-1)
 
         
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    count += 1
+                    dfs(i,j)
+
+        return count       
