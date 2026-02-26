@@ -1,24 +1,32 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        m, n = len(grid), len(grid[0])
 
-        def dfs(i,j):
-            if i<0 or i>=m or j<0 or j>=n or grid[i][j] != "1":
-                return
+        m = len(grid)
+        n = len(grid[0])
+        count = 0
 
-            grid[i][j] = "0" #flood each lands
-            dfs(i,j+1)#move to right
-            dfs(i+1,j)#move down
-            dfs(i-1,j)#move up
-            dfs(i,j-1)#move left
+        directions = [(0,1), (0,-1), (1,0), (-1,0)]
 
-        num_islands = 0
+        queue = deque()
+ 
         for i in range(m):
             for j in range(n):
-                if grid[i][j] == '1':
-                    num_islands += 1
-                    dfs(i,j)#to make all the connected nodes as 0
+                if grid[i][j] == "1":
+                    count += 1
+                    grid[i][j] = "0"
+                    queue.append([i,j])
 
-        return num_islands
+                    while queue:
+                        cell = queue.popleft()
+                        r, c = cell[0], cell[1]
 
-        
+                        for dR, dC in directions:
+                            row, col = r+dR, c+dC
+                            if row >= 0 and row <= m-1 and col >= 0 and col <= n-1 and grid[row][col] == "1":
+                                queue.append([row, col])
+                                grid[row][col] = "0"
+
+        return count 
+
+# Time complexity = O(m·n)
+# Space Complexity is O(min(m·n, size of largest island)) for the queue.
