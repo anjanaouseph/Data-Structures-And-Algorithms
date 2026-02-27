@@ -9,25 +9,29 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-
-        #iterative DFS
         if not node:
             return None
 
         hashMap = {}
 
+        start = node
         stack = [node]
-        start = node #we need to store this reference because node value gets reassigned in the below while loop
-        hashMap[node] = Node(node.val)
+        visited = set()
 
-        while stack:#create copies of all nodes first
+        visited.add(node)
+
+        while stack:
             node = stack.pop()
+            #create a new node
+            hashMap[node] = Node(node.val)
+
             for nei in node.neighbors:
-                if nei not in hashMap:
-                    hashMap[nei] = Node(nei.val)
+                if nei not in visited:
                     stack.append(nei)
-                hashMap[node].neighbors.append(hashMap[nei])
-            
-              
-        #map copies to their neighbor's copies, so iterate over hashmap
-        return hashMap[start]
+                    visited.add(nei)
+
+        for old,new in hashMap.items():
+            for nei in old.neighbors:
+                hashMap[old].neighbors.append(hashMap[nei])
+
+        return hashMap[start]      
