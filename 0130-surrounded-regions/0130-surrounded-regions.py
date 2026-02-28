@@ -1,38 +1,43 @@
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
+        """
+        Do not return anything, modify board in-place instead.
+        """
         m = len(board)
         n = len(board[0])
 
-        directions = [(-1,0),(1,0),(0,1),(0,-1)]
+        #add the surrounding 0s to queue and do BFS and mark as T
 
-        def dfs(i, j):
-            if i<0 or i>m-1 or j<0 or j>n-1 or board[i][j]!= 'O':
-                return
-            board[i][j] = 'T'
-            for dx, dy in directions:
-                dfs(i+dx, j+dy)
+        queue = deque()
+        directions = [(1,0), (-1,0), (0,1), (0,-1)]
 
-        #dfs the the non-surrounding regions of 'O' and make it to T
         for i in range(m):
             for j in range(n):
-                #if cols and rows on the edges
-                if board[i][j] == 'O' and ( i in [0, m-1] or j in [0, n-1]):
-                    dfs(i,j)
-        #mark everything else as 'X' capture the surrounding regions
+                if board[i][j] == 'O' and ( i in [0, m-1] or j in [0, n-1] ): #boundary edges
+                    queue.append((i,j))
+                    board[i][j] = 'T'
+
+        def bfs(queue):
+            while queue:
+                r,c = queue.popleft()
+
+                for dR,dC in directions:
+                    row = r+dR
+                    col = c+dC
+
+                    if 0<=row<m and 0<=col<n and board[row][col] == 'O':
+                        queue.append((row,col))
+                        board[row][col] = 'T' #neighbor of boundary 0 so we cant capture them
+
+        bfs(queue)
+
         for i in range(m):
             for j in range(n):
                 if board[i][j] == 'O':
                     board[i][j] = 'X'
-
-        #unmark all T's back to O's
-
-        for i in range(m):
-            for j in range(n):
-                if board[i][j] == 'T':
+                elif board[i][j] == 'T':
                     board[i][j] = 'O'
-                    
+                        
 
-
-
-
-
+# TC: O(M*N)
+# SC: O(M*N)
