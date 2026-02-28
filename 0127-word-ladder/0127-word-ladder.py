@@ -1,39 +1,35 @@
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        if  not beginWord or not endWord or not wordList:
+
+        word_set = set(wordList)
+        
+        if endWord not in word_set:
             return 0
 
-        hashMap = defaultdict(list)
+        L = len(beginWord)
 
-        for word in wordList:
-            for i in range(len(word)):
-                pattern = word[:i]+"*"+word[i+1:]
-
-                hashMap[pattern].append(word)
-
-        #we do BFS as we want to find the shortest transformation sequence.
+        q = deque([(beginWord, 1)])
 
         visited = set()
-        queue = deque([(beginWord, 1)])
-        visited.add(beginWord)
 
-        #BFS
-        while queue:
-            word, distance = queue.popleft()
-
+        while q:
+            word, dist = q.popleft()
             if word == endWord:
-                return distance  
+                return dist
 
-            for i in range(len(word)):
-                pattern = word[:i]+"*"+word[i+1:]
+            w = list(word) #list of word
 
-                potential_words = hashMap.get(pattern)
+            for i in range(L):
+                original = w[i]
+                for c in "abcdefghijklmnopqrstuvwxyz":
+                    if c == original:
+                        continue
+                    w[i] = c
+                    next = "".join(w) #convert back to string
+                    if next in word_set and next not in visited:
+                        visited.add(next)
+                        q.append((next, dist+1))
 
-                if potential_words:
-                    for potential_word in potential_words:
-                        if potential_word not in visited:
-                            queue.append((potential_word, distance+1))
-                            visited.add(potential_word)
+                w[i] = original
 
-        return 0
-        
+        return 0    
