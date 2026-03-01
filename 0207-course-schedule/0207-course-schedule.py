@@ -13,7 +13,7 @@ class Solution:
         states = [UNVISTED]*numCourses
 
         for a,b in prerequisites:
-            graph[a].append(b) #O(E)
+            graph[a].append(b) #O(V+E) space and O(E) time
 
         def dfs(node): #Total DFS  → O(V + E)
             state = states[node]
