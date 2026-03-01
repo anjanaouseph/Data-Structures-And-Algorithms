@@ -1,21 +1,24 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
 
-        if len(nums) == 0:
-            return 0  
+        #using hashMap and bucketsort
+        if not nums:
+            return -1
 
+        hashMap = defaultdict(int)
 
-        hashMap = {}
-        min_key = max_key =0
+        max_freq, min_freq = float(-inf), float(inf)
 
         for i in range(len(nums)):
-            hashMap[nums[i]] = hashMap.setdefault(nums[i],0)+1
-            min_key = min(min_key, nums[i])
-            max_key = max(max_key, nums[i])
+            hashMap[nums[i]] += 1
+            max_freq = max(max_freq, nums[i])
+            min_freq = min(min_freq, nums[i])
 
-        sum = 0
-        
-        for key in range(max_key, min_key - 1, -1):#reverse loop
-            sum += hashMap.get(key, 0)#if key exists else return 0
-            if sum >= k:
-                return key   
+        count = 0
+
+        for i in range(max_freq, min_freq-1, -1): #bucket sort
+            count += hashMap[i]
+            if count >= k:
+                return i
+
+        return count       
