@@ -13,9 +13,9 @@ class Solution:
         states = [UNVISTED]*numCourses
 
         for a,b in prerequisites:
-            graph[a].append(b)
+            graph[a].append(b) #O(E)
 
-        def dfs(node):
+        def dfs(node): #Total DFS  → O(V + E)
             state = states[node]
 
             if state == VISITED:
@@ -33,7 +33,7 @@ class Solution:
             return True
             
 
-        for node in range(numCourses):
+        for node in range(numCourses): #You might start DFS V times, but you only explore each node and edge only once.
             if not dfs(node):#not able to complete the dfs, means cycle detected
                 return False
 
