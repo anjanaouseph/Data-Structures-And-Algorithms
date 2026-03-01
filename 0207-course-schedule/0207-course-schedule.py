@@ -1,23 +1,22 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-
         if len(prerequisites) == 0:
-            return True
+            return True #can take all course
 
         graph = defaultdict(list)
 
-        VISITED = 2
-        UNVISTED = 0
-        VISITING = 1
-
-        states = [UNVISTED]*numCourses
-
+        #adj list
         for a,b in prerequisites:
-            graph[a].append(b) #O(V+E) space and O(E) time
+            graph[a].append(b)
 
-        def dfs(node): #Total DFS  → O(V + E)
+        states = [0]*numCourses
+
+        VISITING = 1
+        VISITED = 2
+        UNVISITED = 0
+
+        def dfs(node):
             state = states[node]
-
             if state == VISITED:
                 return True
             if state == VISITING:
@@ -30,15 +29,12 @@ class Solution:
                     return False
 
             states[node] = VISITED
+
             return True
-            
 
-        for node in range(numCourses): #You might start DFS V times, but you only explore each node and edge only once.
-            if not dfs(node):#not able to complete the dfs, means cycle detected
+        for i in range(numCourses):
+            if not dfs(i):
                 return False
-
         return True
-
 # TC: O(V+E)
-# SC: O(V+E)
-        
+# SC: O(V+E)    
