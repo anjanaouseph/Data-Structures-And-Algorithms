@@ -25,7 +25,7 @@ class Solution:
             states[node] = VISITING
 
             for nei in graph[node]:
-                if not dfs(nei):
+                if not dfs(nei):#We are doing DFS on the neighbors of the current node which are prerequisites — exploring all its outgoing edges to check for cycles
                     return False
 
             states[node] = VISITED
