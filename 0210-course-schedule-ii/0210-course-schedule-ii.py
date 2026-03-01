@@ -31,12 +31,12 @@ class Solution:
             state = states[i]
 
             if state == VISITED:
-                return True
+                return True #We have already fully explored this node before, and we already know there is no cycle in the path starting from it. So we don’t need to explore it again.”
             
             if state == VISITING:
                 return False #cycle detected
 
-            states[i] = VISITING
+            states[i] = VISITING #we are coming back to a node which we are currently visiting indicating a cycle e came back to a node that is still in the current DFS path.
 
             for nei in graph[i]:
                 if not dfs(nei):
@@ -52,4 +52,7 @@ class Solution:
             if not dfs(i):
                 return []
 
-        return result      
+        return result  
+        
+    # TC: O(V+E)
+    # SC: O(V+E)
