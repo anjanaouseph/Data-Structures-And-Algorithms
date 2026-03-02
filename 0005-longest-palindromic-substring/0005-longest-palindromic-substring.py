@@ -5,7 +5,7 @@ class Solution:
         #brute force involves looping over every substring and checking if it is a palindrome
         #palindrome can be even length and odd length, so the idea is to check for odd length and even length palindrome occurance at every index. eg bbbd bbdd
 
-        res = [0,0]
+        res = [0,0] #instead of slicing string every iteration we store indices in a result array and later in the we slice the string.
         longest = 0
 
         for i in range(len(s)):
@@ -31,3 +31,6 @@ class Solution:
                 right += 1
 
         return s[res[0] : res[1]+1]
+
+# TC: O(n2)+O(n)=O(n2)
+# SC: O(1)
