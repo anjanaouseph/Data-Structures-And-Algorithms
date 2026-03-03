@@ -10,6 +10,7 @@ class Solution {
         //“No bars outside these index so we can't store water beyond them”
         int max_left = height[i]; //tallest thing to the left is this itself
         int max_right = height[j]; // tallest thing to the right is that wall
+        //basically we can store water only from index 1 to index n-2 (0...n-1)
 
         int count = 0;
         int res = 0;
