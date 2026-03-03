@@ -2,8 +2,8 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
@@ -13,6 +13,7 @@
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0053-maximum-subarray/) | Medium |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
@@ -51,8 +52,8 @@
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -68,21 +69,22 @@
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
 | [0680-valid-palindrome-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0053-maximum-subarray/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0071-simplify-path) |
@@ -97,16 +99,16 @@
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 ## Monotonic Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [1909-buildings-with-an-ocean-view](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
@@ -128,8 +130,8 @@
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Design
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0271-encode-and-decode-strings) |
@@ -138,8 +140,8 @@
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0050-powx-n) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -147,8 +149,8 @@
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0015-3sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
@@ -161,8 +163,8 @@
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
@@ -176,8 +178,8 @@
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Matrix
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0036-valid-sudoku](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
@@ -188,8 +190,8 @@
 | [1036-rotting-oranges](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0036-valid-sudoku) |
@@ -215,17 +217,18 @@
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Divide and Conquer
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0053-maximum-subarray/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Sliding Window
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
@@ -233,8 +236,8 @@
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0021-merge-two-sorted-lists) |
@@ -246,8 +249,8 @@
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0206-reverse-linked-list) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0025-reverse-nodes-in-k-group) |
@@ -255,17 +258,17 @@
 | [0143-reorder-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0206-reverse-linked-list) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 ## Doubly-Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0146-lru-cache](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0146-lru-cache) |
 ## Heap (Priority Queue)
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
@@ -273,12 +276,12 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0102-binary-tree-level-order-traversal) |
@@ -303,8 +306,8 @@
 | [2126-count-nodes-equal-to-sum-of-descendants](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2126-count-nodes-equal-to-sum-of-descendants) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -336,8 +339,8 @@
 | [2126-count-nodes-equal-to-sum-of-descendants](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2126-count-nodes-equal-to-sum-of-descendants) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0100-same-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -362,8 +365,8 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0102-binary-tree-level-order-traversal) |
@@ -388,23 +391,23 @@
 | [2126-count-nodes-equal-to-sum-of-descendants](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2126-count-nodes-equal-to-sum-of-descendants) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## String Matching
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Union Find
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
@@ -413,8 +416,8 @@
 | [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 ## Graph
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0133-clone-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0210-course-schedule-ii) |
@@ -422,59 +425,59 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0684-redundant-connection) |
 ## Quickselect
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Prefix Sum
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Randomized
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 ## Bucket Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 ## Counting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 ## Geometry
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Line Sweep
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1028-interval-list-intersections](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1028-interval-list-intersections) |
 ## Backtracking
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0078-subsets) |
 ## Topological Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0207-course-schedule](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0210-course-schedule-ii) |
 ## Data Stream
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
