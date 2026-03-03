@@ -12,3 +12,10 @@ class Solution:
                 curr_sum = 0 #so that if array is full of negative no.s then only the biggest negative no will be the max sum
 
         return max_sum
+
+
+# idea:
+# extend previous subarray
+# OR start fresh from current element
+
+# 2 pointers fail because no monotonocity
