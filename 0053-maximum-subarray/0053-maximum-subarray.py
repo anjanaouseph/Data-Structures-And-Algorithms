@@ -19,3 +19,6 @@ class Solution:
 # OR start fresh from current element
 
 # 2 pointers fail because no monotonocity
+# Because of negative numbers, the sum is not monotonic:
+# adding a number on the right can increase or decrease the sum
+# removing from the left can increase or decrease the sum
