@@ -7,8 +7,9 @@ class Solution {
         int i = 0;
         int j = n-1;
 
-        int max_left = height[i];
-        int max_right = height[j];
+        //“No bars outside these index so we can't store water beyond them”
+        int max_left = height[i]; //tallest thing to the left is this itself
+        int max_right = height[j]; // tallest thing to the right is that wall
 
         int count = 0;
         int res = 0;
