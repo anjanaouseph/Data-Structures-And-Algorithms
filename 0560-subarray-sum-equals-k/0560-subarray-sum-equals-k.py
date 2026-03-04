@@ -1,25 +1,29 @@
-#need hashmap to store the occurances of the sum not index here.
-# We check prefix_sum - k because if the current prefix sum is prefix_sum, any earlier prefix sum equal to prefix_sum - k forms a subarray ending here with sum k
-
-# Why NOT check prefix sum directly? Only tells you:“Have I seen this running sum before?”
-# That corresponds to subarrays with sum 0, not k.
-
-# Why NOT check k directly?
-# “Did some prefix sum equal k?”
-# That only finds subarrays starting at index 0.
-
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
+        hashMap = {0:1}
 
-        hashMap = {0 : 1}
         prefix_sum = 0
         count = 0
 
-        for num in nums:
-            prefix_sum += num
+        for i in range(len(nums)):
+            prefix_sum += nums[i]
 
             if prefix_sum - k in hashMap:
                 count += hashMap[prefix_sum-k]
+
             hashMap[prefix_sum] = hashMap.get(prefix_sum, 0)+1
 
-        return count       
+        return count
+
+# Why use subarray sum here?
+# Brute force: The most straightforward approach would be to try all possible subarrays and compute their sums. O(n^3)
+# Since the array can contain negative numbers, sliding window won’t work reliably.
+# With negative numbers, expanding or shrinking the window doesn’t guarantee predictable sum changes.
+# Since we’re dealing with continuous subarrays, prefix sum is a natural approach.
+
+#  a,b,c,d,e,f,g,h,i,j,k
+#  prefix[f] = 13
+#  prefix[k] = 20
+#  the subarray from g to k equals 7 which is k
+#  so at every prefix_sum just compute if prefix_sum-k has occured before or not
+#  to handle the edge case of subarray sum happening in the beginning of the array we need to add {0:1} in hashmap so that if prefix_sum-k=0, By initializing the hashmap with {0:1}, we correctly count that as one valid starting point.
