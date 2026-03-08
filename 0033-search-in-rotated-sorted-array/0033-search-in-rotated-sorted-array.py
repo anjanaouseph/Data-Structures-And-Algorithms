@@ -12,17 +12,20 @@ class Solution:
             if nums[low] <= nums[mid]:
                 #now check if the target is in this range
                 if nums[low] <= target and nums[mid]>target:
-                    high = mid-1
+                    high = mid
                 else:
                     low = mid+1
 
             else:
-                #means right side is sorted
+                #means right side is sorted in asc
                 if nums[mid] < target and nums[high] >= target:
                     low = mid+1
                 else:
-                    high = mid-1
+                    high = mid
         if nums[low] == target:
             return low
 
         return -1        
+
+# Time Complexity: O(logN)
+# Space Complexity: O(1)
