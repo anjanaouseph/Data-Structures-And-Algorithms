@@ -40,6 +40,7 @@
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
@@ -174,6 +175,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
