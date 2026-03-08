@@ -1,31 +1,25 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        low = 0
-        high = len(nums)-1
 
-        while low <high:
-            mid = low + (high - low)//2 #to take care of integer overflow    
+        left = 0
+        right = len(nums)-1
+
+        while left <= right:
+            mid = left + (right - left) // 2
 
             if nums[mid] == target:
                 return mid
-            #check left or right half is sorted
-            if nums[low] <= nums[mid]:
-                #now check if the target is in this range
-                if nums[low] <= target and nums[mid]>target:
-                    high = mid
+            #check which half is sorted
+            if nums[left] <= nums[mid]:#left half is sorted
+                if nums[left] <= target < nums[mid]:
+                    right = mid-1
                 else:
-                    low = mid+1
+                    left = mid+1
 
-            else:
-                #means right side is sorted in asc
-                if nums[mid] < target and nums[high] >= target:
-                    low = mid+1
+            else: #right half is sorted
+                if nums[mid] < target <= nums[right]:
+                    left = mid+1
                 else:
-                    high = mid
-        if nums[low] == target:
-            return low
+                    right = mid-1
 
-        return -1        
-
-# Time Complexity: O(logN)
-# Space Complexity: O(1)
+        return -1 
