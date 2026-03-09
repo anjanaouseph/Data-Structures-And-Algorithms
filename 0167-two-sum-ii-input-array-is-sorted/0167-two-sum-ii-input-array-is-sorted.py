@@ -13,3 +13,4 @@ class Solution:
 
         return [-1,-1]
         
+#Binary search needs a monotonic condition so wont work here as we need two changing indexes.
