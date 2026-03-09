@@ -111,6 +111,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0008-string-to-integer-atoi](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0020-valid-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0022-generate-parentheses) |
