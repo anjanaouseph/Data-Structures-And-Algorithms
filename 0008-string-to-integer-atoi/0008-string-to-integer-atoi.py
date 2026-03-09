@@ -4,20 +4,20 @@ class Solution:
             return 0
 
         #check for whitespace
+        i = 0
 
-        s = s.lstrip()
+        while i<len(s) and s[i] == " ":
+                i += 1 
 
         if not s:
             return 0 #case when string only has white space
 
-        sign = 1
+        sign = 1      
 
-        i = 0
-
-        if s[i] == '+':
+        if i<len(s) and s[i] == '+':
             sign = 1
             i += 1
-        elif s[i] == '-':
+        elif i<len(s) and s[i] == '-':
             sign = -1
             i += 1
 
