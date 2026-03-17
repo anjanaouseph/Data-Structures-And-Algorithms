@@ -486,4 +486,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
 <!---LeetCode Topics End-->
