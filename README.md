@@ -490,8 +490,10 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
+| [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
+| [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 <!---LeetCode Topics End-->
