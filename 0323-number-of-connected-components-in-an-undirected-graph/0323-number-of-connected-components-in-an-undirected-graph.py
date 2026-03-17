@@ -1,37 +1,33 @@
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
-        if not n:
-            return 0
 
         adj = defaultdict(list)
 
-        for a,b in edges:
-            adj[a].append(b)
-            adj[b].append(a)
+        for u,v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
 
-        unvisited, visited = 0, 2
+        UNVISITED = 0
+        VISITING = 1
+        VISITED = 2
 
-        states = [unvisited]*n
+        visited = [UNVISITED]*n
 
-        visit_set = set()
-
-        connected = 0
-
+        #in this case even if cycle is present that's okay
         def dfs(node):
-            state = states[node]
-            if state == visited: return
 
-            states[node] = visited
-
-            visit_set.add(node)
+            visited[node] = VISITED
 
             for nei in adj[node]:
+                if visited[nei] != VISITED:
                     dfs(nei)
 
+            
+        count = 0
+
         for i in range(n):
-            if i not in visit_set:
+            if visited[i] != VISITED:
+                count += 1
                 dfs(i)
-                connected += 1
-    
-        return connected
-        
+
+        return count
