@@ -49,8 +49,12 @@ class Solution:
 
         dfs(1,0)
 
-        for i in range(n-1,-1,-1):
-            if edges[i][0] in result and edges[i][1] in result:
+        for i in range(n-1,-1,-1):#O(E)
+            if edges[i][0] in result and edges[i][1] in result: #O(1) for set but O(v) for list
+            #if u a list instead of set, then it becomes O(E*V) now its only O(E)
                 return edges[i]
 
         return [-1,-1]
+
+# TC: O(E+V) = O(N) in a tree E = N-1
+# SC: O(E+v) = O(N)
