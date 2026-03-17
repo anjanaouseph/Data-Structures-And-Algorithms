@@ -491,9 +491,11 @@
 | ------- | ------- |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0684-redundant-connection/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0684-redundant-connection/) | Medium |
 <!---LeetCode Topics End-->
