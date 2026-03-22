@@ -6,28 +6,34 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        #create a hashmap for inorder for lookup
-        hashMap = {val : index for index,val in enumerate(inorder)}
+        #if nulls are present we can construct tree from a single traversal like how LC does.
+        #if no nulls present then we need two traversals. null tells you where children are missing.
+        # We need two traversals. (e.g., preorder + inorder) unless additional constraints like BST  properties are given.
+        #inorder is needed because it tells the left vs right split.
 
-        def construct(pre_start, pre_end, in_start, in_end):
-            if pre_start > pre_end or in_start > in_end:
-                return None
+        if not preorder or not inorder:
+            return None
 
-            rootval = preorder[pre_start]
+        root_val = preorder[0]
+        root_index = inorder.index(root_val) #O(N)
 
-            root = TreeNode(rootval)
+        #slice the arrays
+        in_left = inorder[:root_index] #O(K)
+        in_right = inorder[root_index+1:] #O(K-1)
+        pre_left = preorder[1:len(in_left)+1]
+        pre_right = preorder[len(in_left)+1:]
 
-            mid = hashMap[rootval] #use hashmap for O(1) lookup instead of index()
+        #k+(n−k)+k+(n−k)≈2n
+        #per recrusion cal it becomes n,n-1,n-2 so its O(N^2)
+        #recursion space complexity is O(N)
+        #Space complexity: O(n^2) due to list slicing.
 
-            left_elements = mid - in_start
+        root = TreeNode(root_val)
 
-            root.left = construct(pre_start+1, pre_start+left_elements, in_start, mid-1 )#instead of array slicing we pass the pointers
+        root.left = self.buildTree(pre_left,in_left)
+        root.right = self.buildTree(pre_right,in_right)
 
-            root.right = construct(pre_start+left_elements+1, pre_end, mid+1, in_end)
+        return root        
 
-            return root
-
-            
-
-        return construct(0, len(preorder)-1, 0, len(inorder)-1)#we pass the indices of elements in each list
-        
+# TC: O(n^2)
+# SC: O(n^2)
