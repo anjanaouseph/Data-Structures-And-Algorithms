@@ -14,26 +14,37 @@ class Solution:
         if not preorder or not inorder:
             return None
 
-        root_val = preorder[0]
-        root_index = inorder.index(root_val) #O(N)
+        self.index = 0
 
-        #slice the arrays
-        in_left = inorder[:root_index] #O(K)
-        in_right = inorder[root_index+1:] #O(K-1)
-        pre_left = preorder[1:len(in_left)+1]
-        pre_right = preorder[len(in_left)+1:]
+        hashMap = {val : i for i, val in enumerate(inorder)}
 
-        #k+(n−k)+k+(n−k)≈2n
-        #per recrusion cal it becomes n,n-1,n-2 so its O(N^2)
-        #recursion space complexity is O(N)
-        #Space complexity: O(n^2) due to list slicing.
+        def buildSubtree(preorder, start, end):#these are in-order's start and end indices
 
-        root = TreeNode(root_val)
+            if start > end:
+                return None
 
-        root.left = self.buildTree(pre_left,in_left)
-        root.right = self.buildTree(pre_right,in_right)
+            root_val = preorder[self.index]
+            root_index = hashMap[root_val] #O(1)
+            self.index += 1 #preorder already gives nodes in the exact order we need to build the tree. prorder traversal is root → left subtree → right subtree. Recursion is also root→ build left→ build right
 
-        return root        
+            root = TreeNode(root_val)
 
-# TC: O(n^2)
-# SC: O(n^2)
+            root.left = buildSubtree(preorder, start, root_index-1 )
+            root.right = buildSubtree(preorder, root_index+1, end)
+
+            return root     
+
+        return buildSubtree(preorder,0, len(inorder)-1)   
+
+# TC: O(n)
+# SC: O(n)
+
+# In preorder: root,| then all left subtree nodes,| then all right subtree nodes
+
+# So for any subtree:
+
+# [root][left subtree of size L][right subtree]
+
+# If the root is at preorder_start, then:
+# left subtree starts at preorder_start + 1
+# right subtree starts after skipping root and the whole left subtree: preorder_start + 1 + L
