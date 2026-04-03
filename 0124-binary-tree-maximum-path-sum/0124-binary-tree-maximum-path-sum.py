@@ -18,7 +18,8 @@ class Solution:
             sum_left = dfs(root.left) #-1. --- but will be 0 Take this path only if it helps, otherwise ignore it, negative won't help. Don't add negative no to maximize anything
             sum_right = dfs(root.right) #-3 --- 0 but will be 0
 
-            sum[0] = max(sum[0], root.val+sum_left+sum_right, root.val, root.val+sum_left, root.val+sum_right) #check for -4
+            sum[0] = max(sum[0], root.val+sum_left+sum_right, root.val, root.val+sum_left, root.val+sum_right) 
+            #we can check path using left+right+root or root or root+left or root+right
 
             return root.val + max(sum_left, sum_right, 0)#just return the maximum path to the parent node. ignore negative paths
 
