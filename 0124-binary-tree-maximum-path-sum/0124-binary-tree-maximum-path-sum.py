@@ -6,19 +6,21 @@
 #         self.right = right
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
-        max_sum = [float('-inf')] #initialize to ) because Ensures that negative path sums are considered valid.
+        if not root:
+            return float('-inf')
 
-        def calculateSum(root):#why return type not need? ->int
+        sum = [float('-inf')]
+
+        def dfs(root):
             if not root:
                 return 0
 
-            left_sum =  max(0,calculateSum(root.left))
-            right_sum =  max(0,calculateSum(root.right))
+            sum_left = max(0,dfs(root.left)) #-1. --- but will be 0 Take this path only if it helps, otherwise ignore it, negative won't help. Don't add negative no to maximize anything
+            sum_right = max(0,dfs(root.right)) #-3 --- 0 but will be 0
 
-            max_sum[0] = max(max_sum[0], root.val+left_sum+right_sum)
+            sum[0] = max(sum[0], root.val+sum_left+sum_right) #check for -4
 
-            return max(root.val+left_sum, root.val+right_sum)
+            return root.val + max(sum_left, sum_right)#just return the maximum path to the parent node
 
-        calculateSum(root)
-        return max_sum[0]
-            
+        dfs(root)        
+        return sum[0]
