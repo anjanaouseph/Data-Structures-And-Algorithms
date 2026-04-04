@@ -4,29 +4,37 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+import heapq
+
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        #iterative in-order traversal
+        #max heap will be O(NlogK)
 
-        count = 1
-        smallest = -1
-        curr = root
+        #since its a BSR, in-order traversal will give the elements in sorted order.
 
-        stack = []
+        if not root or k <= 0:
+            return -1
 
-        while curr or stack:
-            while curr:
-                stack.append(curr)
-                curr = curr.left
+        def inorder(root):
+
+            nonlocal k
+
+            if not root:
+                return
+
+            left = inorder(root.left)
+
+            if left is not None:
+                return left
+            #process current node
+            k -= 1
+            if k == 0:
+                return root.val
             
-            node = stack.pop()
+            right = inorder(root.right)
 
-            if count == k:
-                smallest = node.val
-                return smallest
+            if right is not None:
+                return right
 
-            count = count+1
-
-            curr = node.right
-
-        return -1  
+        return inorder(root)     
