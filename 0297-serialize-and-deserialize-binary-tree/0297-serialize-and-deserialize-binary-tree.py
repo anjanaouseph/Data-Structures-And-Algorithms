@@ -6,43 +6,53 @@
 #         self.right = None
 
 class Codec:
+
     def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
         res = []
 
-        def dfs(node):
-            if not node:
-                res.append("N")
+        def dfs(root):#preorder
+            if not root:
+                res.append('N')
                 return
-            
-            res.append(str(node.val))
-            dfs(node.left)
-            dfs(node.right)
 
-
+            res.append(str(root.val))
+            dfs(root.left)
+            dfs(root.right)
+        
         dfs(root)
-        return ",".join(res) # takes each element in the list res and combines them into a single string, separated by commas.eg: "1,2,N,N,3,N,N"     
+
+        return ",".join(res)
+        
 
     def deserialize(self, data):
-        values = data.split(",")#The split() method in Python is used to break a string into a list of substrings based on a specified delimiter.The string is split at each comma, and the substrings are stored as list elements.
-        i = 0
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        self.i = 0
+        result = data.split(",")
 
-        def dfs():
-            nonlocal i
-            if values[i] == 'N':
-                i += 1
+        def reconstruct():
+            if result[self.i] == 'N':
+                self.i += 1
                 return None
-            
-            node = TreeNode(values[i])
-            i += 1
-            node.left = dfs()
-            node.right = dfs()
+
+            node = TreeNode(result[self.i])
+            self.i += 1
+            node.left = reconstruct()
+            node.right = reconstruct()
 
             return node
-        
-        return dfs()
 
-        
-        
+        return reconstruct()
+
+
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
