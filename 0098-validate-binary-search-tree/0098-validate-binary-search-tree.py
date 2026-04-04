@@ -22,4 +22,4 @@ class Solution:
         return True   
 
 # TC: O(N)
-# SC: O(N)
+# SC: O(h), which is O(n) in worst case (skewed) and O(log n) in balanced tree
