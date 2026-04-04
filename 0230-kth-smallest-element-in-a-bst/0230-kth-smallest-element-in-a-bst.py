@@ -14,28 +14,26 @@ class Solution:
         if not root or k <= 0:
             return -1
 
-        def inorder(root):
+       #iteration
 
-            nonlocal k
+        stack = []
+        curr = root
 
-            if not root:
-                return
+        while True:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
 
-            left = inorder(root.left)
+            curr = stack.pop() #pop last added root
 
-            if left is not None:
-                return left
-            #process current node
+            #now process that root, which will be the leaf root of Left sub tree
             k -= 1
             if k == 0:
-                return root.val
-            
-            right = inorder(root.right)
+                return curr.val
 
-            if right is not None:
-                return right
+            curr = curr.right
 
-        return inorder(root)  
+        return -1
 
 # TC: O(N)
 # SC: O(H) h = n for skewed tree and logN for balanced BST   
