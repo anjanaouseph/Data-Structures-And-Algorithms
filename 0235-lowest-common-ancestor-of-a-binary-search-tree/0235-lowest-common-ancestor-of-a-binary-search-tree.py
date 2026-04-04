@@ -21,6 +21,6 @@ class Solution:
                 curr = curr.left
 
             else:
-                return curr
+                return lca
 
         return None     
