@@ -14,7 +14,7 @@ class Solution:
         levels = []
 
         while queue:
-            res = []
+            res = [] #The temporary list for each level can also take up to O(n) space in the worst case, but it does not accumulate across iterations. Same space taken as queue.
             for i in range(len(queue)):
                 node = queue.popleft()
 
@@ -27,3 +27,6 @@ class Solution:
             levels.append(res)
 
         return levels     
+
+# Time Complexity: O(N)
+# Space Complexity : O(W) which is O(1) for skewed trees and O(N/2) for complete trees  
