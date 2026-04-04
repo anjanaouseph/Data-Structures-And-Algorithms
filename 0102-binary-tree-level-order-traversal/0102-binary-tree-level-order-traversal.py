@@ -9,22 +9,21 @@ class Solution:
         if not root:
             return []
 
-        #BFS
         queue = deque([root])
 
-        result = []
+        levels = []
 
         while queue:
-            level = []
+            res = []
             for i in range(len(queue)):
                 node = queue.popleft()
-                level.append(node.val)
+
+                res.append(node.val)
+
                 if node.left:
-                    queue.append(node.left)       
+                    queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            result.append(level)
-        return result   
+            levels.append(res)
 
-# Time Complexity: O(N)
-# Space Complexity : O(w) which is O(1) for skewed trees and O(N/2) for complete trees     
+        return levels     
