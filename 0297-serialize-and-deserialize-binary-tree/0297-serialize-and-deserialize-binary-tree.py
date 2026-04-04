@@ -58,3 +58,7 @@ class Codec:
 # ser = Codec()
 # deser = Codec()
 # ans = deser.deserialize(ser.serialize(root))
+# Preorder is preferred because it processes the root first, which aligns naturally with recursive tree construction. Inorder doesn’t uniquely define the tree, and postorder is harder since the root appears last. Level order works but requires additional data structures.
+# To reconstruct a tree using one traversal, we need:
+# Traversal that gives root position clearly
+# PLUS null markers to preserve structure
