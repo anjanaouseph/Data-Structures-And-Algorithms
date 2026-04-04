@@ -7,25 +7,20 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        #iterative solution for bst lca
 
-        lca = [float('-inf')]
-        
-        def lowest_ancestor (root, p, q):
+        curr = root
+        lca = root
 
-            if not root:
-                return None
+        while curr:
+            lca = curr
+            if curr.val < p.val and curr.val < q.val:
+                curr = curr.right
 
-            lca[0] = root
-
-            if root.val > p.val and root.val > q.val: #both are in left side
-                return lowest_ancestor(root.left,p,q) #go to the left side
-            if root.val < p.val and root.val < q.val:
-                return lowest_ancestor(root.right,p, q)
+            elif curr.val > p.val and curr.val > q.val:
+                curr = curr.left
 
             else:
-                return lca[0]
+                return curr
 
-        return lowest_ancestor(root,p,q)        
-
-# TC: O(N)
-# SC: O(H)
+        return None     
