@@ -43,7 +43,7 @@ class Codec:
                 self.i += 1
                 return None
 
-            node = TreeNode(result[self.i])
+            node = TreeNode(int(result[self.i]))
             self.i += 1
             node.left = reconstruct()
             node.right = reconstruct()
