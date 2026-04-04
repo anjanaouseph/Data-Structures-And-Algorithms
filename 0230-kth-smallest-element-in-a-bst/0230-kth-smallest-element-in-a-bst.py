@@ -5,8 +5,6 @@
 #         self.left = left
 #         self.right = right
 
-import heapq
-
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         #max heap will be O(NlogK)
