@@ -37,4 +37,7 @@ class Solution:
             if right is not None:
                 return right
 
-        return inorder(root)     
+        return inorder(root)  
+
+# TC: O(N)
+# SC: O(H) h = n for skewed tree and logN for balanced BST   
