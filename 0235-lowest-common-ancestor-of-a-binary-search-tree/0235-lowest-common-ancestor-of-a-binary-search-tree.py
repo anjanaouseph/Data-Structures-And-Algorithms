@@ -10,10 +10,8 @@ class Solution:
         #iterative solution for bst lca
 
         curr = root
-        lca = root
 
         while curr:
-            lca = curr
             if curr.val < p.val and curr.val < q.val:
                 curr = curr.right
 
@@ -21,6 +19,6 @@ class Solution:
                 curr = curr.left
 
             else:
-                return lca
+                return curr
 
         return None     
