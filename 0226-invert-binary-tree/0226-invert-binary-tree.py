@@ -9,14 +9,18 @@ class Solution:
         if not root:
             return None
 
-        def dfs(root):
-            if not root:
-                return
+        curr = root
 
-            root.left, root.right = root.right, root.left #swap
+        stack = [root]
 
-            dfs(root.left)
-            dfs(root.right)
+        while stack:
+            root = stack.pop()
 
-        dfs(root)
-        return root       
+            root.left, root.right = root.right, root.left
+
+            if root.left:
+                stack.append(root.left)
+            if root.right:
+                stack.append(root.right)
+
+        return curr   
