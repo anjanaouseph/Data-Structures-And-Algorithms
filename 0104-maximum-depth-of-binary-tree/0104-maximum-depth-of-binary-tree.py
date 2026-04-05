@@ -9,18 +9,14 @@ class Solution:
         if not root:
             return 0
 
-        stack = [(root, 1)]
+        def dfs(root):
+            if not root:
+                return 0
 
-        max_depth = 0
+            left = dfs(root.left)+1
+            right = dfs(root.right)+1
 
-        while stack:
-            node, count = stack.pop()
+            return max(left,right)
 
-            max_depth = max(max_depth, count)
-
-            if node.left:
-                stack.append((node.left, count+1))
-            if node.right:
-                stack.append((node.right, count+1))
-
-        return max_depth        
+        return dfs(root)
+        
