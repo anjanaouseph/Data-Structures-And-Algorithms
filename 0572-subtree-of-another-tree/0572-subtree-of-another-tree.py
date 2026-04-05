@@ -29,3 +29,8 @@ class Solution:
             return True
 
         return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot) #recursively check left and rigt paths 
+
+# Complexity	Value
+# Time	O(n × m)
+# Space	O(hn+hm)
+# The isSameTree recursion must fully unwind before proceeding to the next subtree check, so at any point the stack depth is at most O(h1 + h2).
