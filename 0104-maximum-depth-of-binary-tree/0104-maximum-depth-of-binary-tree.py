@@ -9,14 +9,21 @@ class Solution:
         if not root:
             return 0
 
-        def dfs(root):
-            if not root:
-                return 0
+        max_depth = 0
 
-            left = dfs(root.left)+1
-            right = dfs(root.right)+1
+        stack = [(root,1)]
 
-            return max(left,right)
+        while stack:
+            node, depth = stack.pop()
 
-        return dfs(root)
-        
+            max_depth = max(depth, max_depth)
+
+            if node.left:
+                stack.append((node.left, depth+1))
+            if node.right:
+                stack.append((node.right, depth+1))
+
+        return max_depth
+
+# TC: O(N)
+# SC: O(H) O(N) for skewed tree, O(log N) for balanced tree      
