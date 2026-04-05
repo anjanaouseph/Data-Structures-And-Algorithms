@@ -12,26 +12,20 @@ class Solution:
 
         if not root or not subRoot:
             return False
-        
-        def isSameTree(root, subroot):
-            if not root and not subroot:
+
+        def isSameTree(root, subRoot):
+            if not root and not subRoot:
                 return True
 
-            if not root or not subroot:
+            if not root or not subRoot:
+                return False
+            
+            if root.val != subRoot.val:
                 return False
 
-            if root.val != subroot.val:
-                return False
+            return isSameTree(root.left, subRoot.left) and isSameTree(root.right, subRoot.right)
 
-            return isSameTree(root.left, subroot.left) and isSameTree(root.right, subroot.right)
-
-        if isSameTree(root, subRoot):
+        if isSameTree(root, subRoot):#check current node
             return True
 
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot) 
-            
-
-            
-
-
-        
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot) #recursively check left and rigt paths 
