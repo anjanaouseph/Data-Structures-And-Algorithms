@@ -24,3 +24,6 @@ class Solution:
                 stack.append(root.right)
 
         return curr   
+
+# TC: O(N)
+# SC: O(H) h is O(N) for skewed tree and O(logN) for balanced tree
