@@ -22,6 +22,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0130-surrounded-regions) |
+| [0135-candy](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0135-candy/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0162-find-peak-element) |
@@ -74,6 +75,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
+| [0135-candy](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0135-candy/) | Hard |
 | [0680-valid-palindrome-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Dynamic Programming
