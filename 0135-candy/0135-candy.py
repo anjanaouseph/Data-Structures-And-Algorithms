@@ -1,33 +1,42 @@
 class Solution:
     def candy(self, ratings: List[int]) -> int:
-        #brute force Each iteration scans the entire array and may update up to n positions. Since we can have up to n iterations in the worst case, the total time complexity becomes O(n²).
-        #In the brute force approach, each pass propagates constraints by at most one step, so we need at most O(n) passes. Since each pass takes O(n), the total time complexity is O(n²).
-        #and a single pass approach fails when there is mountain like symmetry. 
-        #eg: 1 2 3 4 3 2 1, if i use my logic of if curr > left then do left candies + 1 else 1+1,
-        # then it breaks.
-        # 1 2 3 4 3 2 1
-        # 1 2 3 4 2 3 1.  2,3 is wrong here there is a breach
-        # so single pass will breach the constraints so we need to use a double pass approach as we can't for sure say how many candies will the right element get as thats not yet fixed, only left candies will be fixed in a single forward pass.
-        #So use one pass for left candies and second pass for right candies and take max.
-        # A single pass is not sufficient because when assigning candies from left to right, we only satisfy the left neighbor constraint. We don’t yet know how many candies the right neighbor will need, so we might violate the right-side condition.
-        candies = [1]*len(ratings) #each child shud get atleast one candy
-        sum = 0
-        n = len(ratings)
+        #using the slop method
+#        Instead of giving candies to each child,
+# we look at the ratings like a mountain shape and calculate how many candies that shape needs.
+#         if two ratings are same just give 1 candy because the constraint just says neighbors with higher rating needs extra candy.
+            sum = 1 #first one gets one candy
+            i = 1
+            n = len(ratings)
 
-        #left pass
-        for i in range(1,n):
-            if ratings[i] > ratings[i-1]: #left nei > curr rating
-                candies[i] = candies[i-1]+1
+            while i < n:
+                if ratings[i-1] == ratings[i]:
+                    sum+= 1 #just add one
+                    i+=1
+                    continue
 
-        #right pass
-        for i in range(n-2,-1,-1):
-            if ratings[i] > ratings[i+1]:
-                candies[i] = max(candies[i], candies[i+1]+1)
+                #increasing slope
+                peak = 1 #assigned 1 to first index after that slope starts
+                while (i<n and ratings[i] > ratings[i-1]):
+                    peak += 1
+                    i+=1
+                    sum += peak
 
-        for num in candies:
-            sum += num
+                #decreasing slope
+                down = 1 # else peak will cause overcounting
+                while (i<n and ratings[i] < ratings[i-1]):
+                    sum += down
+                    down += 1
+                    i += 1
 
-        return sum        
+                if (down > peak):
+                    sum += down - peak
+
+            return sum
 
 # TC: O(N)
-# SC: O(N)
+# SC: O(1)
+        
+# eg: 0 2 4 7 6 5 4 3 2 1 1 1
+#     1 2 3 4,1 2 3 4 5 6 
+#     after 6 down will be at 7 but we wont add that to the slope. so finally if down > peak, we add diff to the sum 
+# check strivers explanation
