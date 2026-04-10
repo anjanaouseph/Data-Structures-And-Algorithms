@@ -49,4 +49,4 @@ class Solution:
 
 # Time Complexity is O(nlog26) = O(n)
 # Space Complexity is O(n) = O(26)
-#same logic we can scan hashmap each time instead of using heap
+#same logic we can scan hashmap each time instead of using heap this will be O(n*n) instead of O(n*logn)
