@@ -1,7 +1,7 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         #2 pointer based solution
-        nums.sort()
+        nums.sort() #O(nlogn) modifies array in place
 
         result = []
 
@@ -10,13 +10,12 @@ class Solution:
                 continue
             if nums[i] > 0:
                 break #early stopping as we are already sorted the array in asc order so elements after this will always be larger and
-                #we won't get sum = 0.
-            
+                #we won't get sum = 0.          
             left = i+1
             right = len(nums)-1
             inner_sum = -nums[i]
 
-            while left < right:
+            while left < right:#start from end here else we lose invariant as the array is sorted, starting from beginning both pointers mean moving forward only increases the sum. So we wont have the control to inc or dec the sum.
                 if nums[left]+nums[right] == inner_sum:
                     result.append([nums[i], nums[left], nums[right]])
                     left += 1
@@ -43,8 +42,6 @@ class Solution:
                 #if base condition variables have been mutated.
 
         return result
-
-
 # You only skip duplicates after a valid triplet if found
 # Time Complexity: O(nlogn) + O(n2) = O(n2)
 # space complexity: O(1)
