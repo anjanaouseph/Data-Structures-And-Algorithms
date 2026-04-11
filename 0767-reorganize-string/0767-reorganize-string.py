@@ -26,27 +26,39 @@ class Solution:
         prev = None
         res = ""
 
-        max_heap = [(-values, key) for key,values in hashMap.items()]
-        heapq.heapify(max_heap)
-
-        while max_heap or prev: #O(n) we are building string char by char
+        while hashMap or prev: #O(n) we are building string char by char
             #base
-            if not max_heap and prev:#means no elements exist in heap to pop and add to res
+            if not hashMap and prev:#means no elements exist in heap to pop and add to res
                 return "" #we cant form the required string
 
-            curr,key = heapq.heappop(max_heap) #O(log26)
-            curr = curr+1 
-            res += key
+            candidate = None
+
+            for ch in hashMap:
+                if prev and ch == prev[0]:
+                    continue
+                if not candidate or hashMap[ch]>hashMap[candidate]:#find the most freq character
+                    candidate = ch
+
+            if candidate:
+                res += candidate
+            else:
+                return ""
+
+            hashMap[candidate] -= 1
+            remaining = hashMap[candidate]
+
+            if remaining == 0:
+                del hashMap[candidate]
 
             if prev:
-                heapq.heappush(max_heap,prev) #O(log26)
+                hashMap[prev[0]] = prev[1]            
                 prev = None
 
-            if curr != 0:
-                prev = (curr, key)
+            if remaining > 0: #dont check hashMap[character] it returns 0 AND inserts the key back into the dictionary and hashMap never becomes empty due to defaultdict behavior.
+                prev = (candidate, hashMap[candidate])
         
         return res
 
-# Time Complexity is O(nlog26) = O(n)
+# Time Complexity is O(n*k) = O(n*26)
 # Space Complexity is O(n) = O(26)
-#same logic we can scan hashmap each time instead of using heap this will be O(n*n) instead of O(n*logn)
+# The most frequent character is the hardest to place, so handle it early.
