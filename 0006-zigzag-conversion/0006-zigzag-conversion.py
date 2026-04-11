@@ -12,7 +12,7 @@ class Solution:
 
         for char in s: #below code makes sure i is from 0 to numRows--1 for numRows ≥ 2      
             
-            rows[i].append(char)
+            rows[i].append(char)#if check for 0<=i<numRows here only then we can miss other elements in result string so handle the edge case in the beginning when rows = 1
 
             if i == 0:#hits upper boundary
                 d = 1 #go down
