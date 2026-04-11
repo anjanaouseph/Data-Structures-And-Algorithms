@@ -44,6 +44,7 @@
 | [0792-binary-search](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
+| [0904-fruit-into-baskets](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0907-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1006-vowel-spellchecker](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1006-vowel-spellchecker) |
@@ -228,6 +229,7 @@
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 | [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
+| [0904-fruit-into-baskets](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1006-vowel-spellchecker](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1006-vowel-spellchecker) |
 | [1023-time-based-key-value-store](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -250,6 +252,7 @@
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
+| [0904-fruit-into-baskets](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 ## Linked List
 | Problem Name | Difficulty |
