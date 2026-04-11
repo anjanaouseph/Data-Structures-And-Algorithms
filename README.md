@@ -39,6 +39,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
+| [0735-asteroid-collision](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -98,6 +99,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0155-min-stack) |
 | [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
+| [0735-asteroid-collision](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -514,4 +516,8 @@
 | [0261-graph-valid-tree](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 | [0684-redundant-connection](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0684-redundant-connection/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0735-asteroid-collision](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0735-asteroid-collision/) | Medium |
 <!---LeetCode Topics End-->
