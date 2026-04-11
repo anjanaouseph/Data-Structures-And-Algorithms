@@ -1,7 +1,7 @@
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
 
-        if numRows == 1:
+        if numRows == 1: #edge case rows = 1 and string "AB"
             return s
         
         res = ""
@@ -10,7 +10,7 @@ class Solution:
 
         i = 0
 
-        for char in s: #below code makes sure i is from 0 to numRows--1        
+        for char in s: #below code makes sure i is from 0 to numRows--1 for numRows ≥ 2      
             
             rows[i].append(char)
 
