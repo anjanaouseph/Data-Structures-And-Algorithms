@@ -25,5 +25,8 @@ class Solution:
 
         return res
 
+# find all meetings which starts before first end time -> means meetings are going on in parallel
+# finally you find a meeting which starts after the current end time. We have found all meetings that begin before the current end time so safe to move to the next end time. Since one meeting ended we can free up a room. All this logic works because we sorted the arrays.
+
 # TC: O(nlogn)
 # SC: O(n)
