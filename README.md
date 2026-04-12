@@ -35,6 +35,7 @@
 | [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0286-walls-and-gates](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
@@ -71,6 +72,7 @@
 | [0141-linked-list-cycle](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
@@ -84,6 +86,7 @@
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0135-candy](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0135-candy/) | Hard |
+| [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -179,6 +182,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
+| [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
@@ -301,6 +305,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
@@ -468,6 +473,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1046-max-consecutive-ones-iii) |
