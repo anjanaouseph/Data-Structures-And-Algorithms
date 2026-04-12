@@ -7,14 +7,17 @@ class Solution:
         max_profit = 0
 
         while high < len(prices):
-            if prices[low] < prices[high]:
-                profit = prices[high] - prices[low]
-
-                max_profit = max(profit, max_profit)
+            if prices[high] > prices[low]:
+                profit = prices[high]-prices[low]
+                max_profit = max(max_profit,profit)
 
             else:
-                low = high #which means we found another day that is lower than low so buy on that  day instead of on the prev low day.
-
+                low = high#found a cheaper price so buy on this day.
+                #say we found a higher price in future, profit will be higher with this buy price as it is smaller, than the previous day's buying price
+            
             high += 1
 
-        return max_profit
+        return max_profit   
+
+# Time Complexity: O(N)
+# Space Complexity: O(1)
