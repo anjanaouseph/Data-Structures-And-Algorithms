@@ -46,3 +46,7 @@ class Solution:
 
 # TC: O(nlogn)+O(n*n*n) = O(n3)
 # SC: O(1)
+# NOTE: here don't check if nums[i] > target, then break. similarly don't check if nums[j]>target, break
+# because here since target can be negative, this can be offseted.
+# In 3 sum pbm target is 0 always, not random, so if first no after sorting is positive, then it won't be offseted by later no.s.
+# so in 3 sum with target not 0, code is same but without that early stopping condition
