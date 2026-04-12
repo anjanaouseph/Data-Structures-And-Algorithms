@@ -19,6 +19,7 @@ class Solution:
             else:#means A meeting ends before the next one starts
                 count -= 1 #so free a room
                 e += 1
+                #if a meeting starts  when another ends, we can use same room so no need of extra room
             
             res = max(res, count)
 
