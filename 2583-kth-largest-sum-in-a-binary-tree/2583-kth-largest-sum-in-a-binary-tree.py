@@ -9,23 +9,22 @@ class Solution:
         #bfs
 
         largest_sum = [] #stores the sum across all levels
-        sum = [0]
 
         queue = deque([root])
 
         while queue:
-            sum[0] = 0
+            level_sum = 0
             for i in range(len(queue)):
                 root = queue.popleft()
 
-                sum[0] += root.val
+                level_sum += root.val
 
                 if root.left:
                     queue.append(root.left)
                 if root.right:
                     queue.append(root.right)
 
-            largest_sum.append(sum[0])
+            largest_sum.append(level_sum)
 
         #now use heap which is min heap of size k
         if len(largest_sum) < k:
@@ -41,7 +40,5 @@ class Solution:
         
         return heap[0]
 
-
-
-
-        
+# TC: O(N + HlogK) = (Hlogk) H is O(logn) for balanced and O(N) for skewed trees
+# SC: O(N + k) = O(N)        
