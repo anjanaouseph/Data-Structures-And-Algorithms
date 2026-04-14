@@ -12,14 +12,14 @@ class Solution:
 
         maxHeap = [-count for count in hashMap.values()] #for max heap we make it -ve
 
-        heapq.heapify(maxHeap)
+        heapq.heapify(maxHeap) #klogk
         #arranging by max freq first make sure we don't exhaust the required tasks letter.
 
         time = 0
 
         queue = deque()
 
-        while maxHeap or queue:
+        while maxHeap or queue: #Work per step = O(log U) You’re not iterating over tasks — you’re iterating over time
             time += 1
 
             if maxHeap:
@@ -32,3 +32,6 @@ class Solution:
                     heapq.heappush(maxHeap, queue.popleft()[0])
 
         return time        
+
+# TC: O(T) T iterations × O(log U) U is a costant
+# SC: O(1)  (since at most 26 tasks)
