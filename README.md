@@ -30,6 +30,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0179-largest-number](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0179-largest-number/) | Medium |
 | [0200-number-of-islands](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
@@ -86,6 +87,7 @@
 | [0011-container-with-most-water](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0135-candy](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0135-candy/) | Hard |
+| [0179-largest-number](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0179-largest-number/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
@@ -138,6 +140,7 @@
 | [0076-minimum-window-substring](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0127-word-ladder) |
+| [0179-largest-number](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0179-largest-number/) | Medium |
 | [0227-basic-calculator-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0271-encode-and-decode-strings) |
@@ -179,6 +182,7 @@
 | [0018-4sum](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0018-4sum/) | Medium |
 | [0049-group-anagrams](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
+| [0179-largest-number](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0179-largest-number/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
