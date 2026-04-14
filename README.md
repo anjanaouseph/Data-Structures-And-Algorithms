@@ -43,6 +43,7 @@
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0621-task-scheduler/) | Medium |
 | [0695-max-area-of-island](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0739-daily-temperatures) |
@@ -89,6 +90,7 @@
 | [0135-candy](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0135-candy/) | Hard |
 | [0179-largest-number](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0179-largest-number/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
+| [0621-task-scheduler](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0621-task-scheduler/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -190,6 +192,7 @@
 | [0295-find-median-from-data-stream](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 | [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
 | [0883-car-fleet](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0883-car-fleet) |
@@ -246,6 +249,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 | [0807-custom-sort-string](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0807-custom-sort-string) |
 | [0904-fruit-into-baskets](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -313,6 +317,7 @@
 | [0253-meeting-rooms-ii](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 | [0789-kth-largest-element-in-a-stream](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/1014-k-closest-points-to-origin) |
@@ -497,6 +502,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/anjanaouseph/Data-Structures-Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/anjanaouseph/Data-Structures-And-Algorithms/tree/main/0767-reorganize-string/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
